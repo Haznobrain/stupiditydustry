@@ -1,0 +1,22 @@
+consumes: {
+  power: 1
+    }
+range: 64
+reload: 4
+shootType: {
+  type: BulletType
+  damage: 110
+  lifetime: 8
+  speed: 8
+  hitSize: 8
+  shootEffect: {
+    type: ParticleEffect
+    interp: circleOut
+    sizeInterp: pow5Out
+    colorFrom: ffffff
+    colorTo: baf4ff
+    particles: 25
+    sizeFrom: 6
+  }
+}
+details: "wet fart"
