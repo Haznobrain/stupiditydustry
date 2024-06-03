@@ -18,7 +18,7 @@ ammoTypes: {
     height: 8
     width: 8
     shrinkY: 0
-    reloadMultiplier: 1.6
+    reloadMultiplier: 0.5
       }
   silicon: {
     type: BasicBulletType
@@ -29,6 +29,7 @@ ammoTypes: {
     height: 8
     width: 8
     shrinkY: 0
-    reloadMultiplier: 0.5
+    reloadMultiplier: 1.6
+    homingPower: 2
       }}
 reload: 6
