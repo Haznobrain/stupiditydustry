@@ -18,7 +18,16 @@ ammoTypes: {
     ammoMultiplier: 1
     damage: 100
     orbRadius: 8
-    trailEffect: hitLiquid
+    trailEffect: {
+      type: ParticleEffect
+      length: 24
+      cone: 10
+      particles: 10
+      sizeFrom: 6
+      colorFrom: 596ab8
+      colorTo: 596ab8
+      lifetime: 90
+          }
     trailChance: 1
     trailInterval: 4
     hitEffect: hitLiquid
@@ -31,6 +40,16 @@ ammoTypes: {
   cryofluid: {
     type: LiquidBulletType
     speed: 2
+    trailEffect: {
+      type: ParticleEffect
+      length: 24
+      cone: 10
+      particles: 10
+      sizeFrom: 6
+      colorFrom: 6ecdec
+      colorTo: 6ecdec
+      lifetime: 90
+          }
     lifetime: 320
     liquid: cryofluid
     ammoMultiplier: 1
@@ -53,6 +72,16 @@ ammoTypes: {
     trailChance: 1
     trailInterval: 4
     liquid: slag
+    trailEffect: {
+      type: ParticleEffect
+      length: 24
+      cone: 10
+      particles: 10
+      sizeFrom: 6
+      colorFrom: ffa166
+      colorTo: ffa166
+      lifetime: 90
+          }
     ammoMultiplier: 1
     damage: 200
     orbRadius: 8
@@ -72,6 +101,16 @@ ammoTypes: {
     ammoMultiplier: 1
     damage: 150
     orbRadius: 8
+    trailEffect: {
+      type: ParticleEffect
+      length: 24
+      cone: 10
+      particles: 10
+      sizeFrom: 6
+      colorFrom: 313131
+      colorTo: 313131
+      lifetime: 90
+          }
     trailChance: 1
     trailInterval: 4
     trailEffect: hitLiquid
