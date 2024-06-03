@@ -11,6 +11,8 @@ reload: 4
     colorTo: baf4ff
     particles: 25
     sizeFrom: 6
+    length: 64
+    lifetime: 30
   }
 shoot: {
   firstShotDelay: 0
@@ -21,5 +23,7 @@ shootType: {
   lifetime: 8
   speed: 8
   hitSize: 8
+  despawnEffect: none
+  hitEffect: hitFlameSmall
 }
 details: "wet fart"
