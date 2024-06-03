@@ -1,0 +1,34 @@
+reload: 120
+description: "he pissed on my wife, well i'm gonna piss on the earth, that's right! this is what you get! my SUPER LASER PISS!"
+details: "except i'm not gonna piss on the earth, i'm gonna go higher, I'M PISSING ON THE MOOOOOOOOOOOOOOOOONNNN!"
+range: 552
+consumes: {
+  power: 10
+    }
+hasPower: true
+consumesPower: true
+shootSound: laserblast
+loopSound: none
+ammoTypes: {
+  slag: {
+    type: LaserBulletType
+    laserEffect: chainEmp
+    damage: 800
+    length: 552
+    pierceDamageFraction: 0.5
+    width: 70
+    lightningSpacing: 8
+    lifetime: 65
+    lightningDelay: 1.1
+    lightningDamage: 10
+    sideAngle: 45
+    fragBullets: 4
+    largeHit: true
+    fragBullet: {
+        type: LaserBulletType
+        length: 80
+        damage: 40
+        lifetime: 100
+          }
+      }
+}
