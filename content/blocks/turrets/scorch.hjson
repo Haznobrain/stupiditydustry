@@ -7,6 +7,7 @@ ammoTypes: {
     colors: [ff0000, ffffff, 000000, 000000]
     lifetime: 120
     spin: 10
+    layer: 111
     hitEffect: {
       type: MultiEffect
       effects: [
@@ -20,6 +21,7 @@ strokeTo: 0
 line: true
 colorFrom: ff0000
 colorTo: ff0000
+layer: 111
   }
         {
 type: ParticleEffect
@@ -31,6 +33,7 @@ strokeTo: 0
 line: true
 colorFrom: ffffff
 colorTo: ffffff
+layer: 111
   }
 {
 type: ParticleEffect
@@ -42,6 +45,7 @@ strokeTo: 0
 line: true
 colorFrom: 000000
 colorTo: 000000
+layer: 111
   }
 ]
   }
