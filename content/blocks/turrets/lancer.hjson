@@ -3,12 +3,6 @@ consumes: {
     }
 range: 64
 reload: 4
-shootType: {
-  type: BulletType
-  damage: 110
-  lifetime: 8
-  speed: 8
-  hitSize: 8
   shootEffect: {
     type: ParticleEffect
     interp: circleOut
@@ -18,5 +12,14 @@ shootType: {
     particles: 25
     sizeFrom: 6
   }
+shoot: {
+  firstShotDelay: 0
+  }
+shootType: {
+  type: BulletType
+  damage: 110
+  lifetime: 8
+  speed: 8
+  hitSize: 8
 }
 details: "wet fart"
