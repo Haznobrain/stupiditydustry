@@ -1,6 +1,7 @@
 targetAir: false
 targetGround: true
 range: 480
+inaccuracy: 0
 ammoTypes: {
   copper: {
     type: MissileBulletType
