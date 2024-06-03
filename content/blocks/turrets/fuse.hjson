@@ -26,7 +26,7 @@ ammoTypes: {
   thorium: {
     ammoMultiplier: 1
     type: BasicBulletType
-    sprite: stupidustry-fuse-preview
+    sprite: fuse-preview
     speed: 4
     lifetime: 144
     damage: 600
