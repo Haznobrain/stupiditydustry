@@ -19,7 +19,7 @@ shoot: {
   }
 shootType: {
   type: BulletType
-  damage: 110
+  damage: 40
   lifetime: 8
   speed: 8
   hitSize: 8
