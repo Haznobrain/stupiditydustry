@@ -1,12 +1,15 @@
-type: PowerTurret
 consumes: {
   power: 0.1
     }
+hasPower: true
+consumesPower: true
 reload: 30
 range: 60
-shootType: {
+ammoTypes: {
+  scrap: {
   type: LaserBoltBulletType
   damage: 40
   speed: 0.5
   lifetime: 120
     }
+}
