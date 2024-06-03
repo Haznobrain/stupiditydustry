@@ -1,0 +1,12 @@
+ammoTypes: {
+  thorium: {
+    type: ExplosionBulletType
+    splashDamageRadius: 72
+    splashDamage: 2000
+    hitEffect: {
+      type: MultiEffect
+      effects: [reactorExplosion, dynamicSpikes]
+        }
+  }
+range: 72
+details: "it's a nuke, dumbass"
