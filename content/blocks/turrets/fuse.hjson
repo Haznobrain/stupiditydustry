@@ -1,0 +1,50 @@
+drawer: {
+type: DrawTurret
+  parts: [
+{
+type: RegionPart
+suffix: -body
+color: 00000000
+colorTo: ffffff
+mixColorTo: 00000000
+progress: reload
+}
+  ]
+  }
+requirements: [
+  thorium/200
+]
+range: 288
+reload: 140
+shoot: {
+  shots: 1
+    }
+ammoPerShot: 200
+ammoCapacity: 400
+ammoTypes: {
+  thorium: {
+    ammoMultiplier: 1
+    type: BasicBulletType
+    sprite: fuse-body
+    speed: 4
+    lifetime: 144
+    damage: 600
+    intervalBullets: 3
+    bulletInterval: 2
+    intervalSpread: 20
+    intervalRandomSpread: 0
+    homingPower: 2
+    hitSize: 24
+    knockback: 40
+    intervalBullet: {
+      damage: 105
+      type: ShrapnelBulletType
+      length: 100
+      toColor: f9a3c7
+      hitLarge: true
+      despawnSound: shotgun
+      shootEffect: thoriumShoot
+        }
+  }
+}
+details: "firin' the whole!"
