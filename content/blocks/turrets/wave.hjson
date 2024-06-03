@@ -14,7 +14,7 @@ ammoTypes: {
     laserEffect: chainEmp
     damage: 800
     length: 552
-    pierceDamageFraction: 0.5
+    pierceDamageFactor: 0.5
     width: 70
     lightningSpacing: 8
     lifetime: 65
