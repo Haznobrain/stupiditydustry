@@ -19,6 +19,7 @@ ammoTypes: {
     damage: 100
     orbRadius: 8
     parentizeEffects: true
+    collideTerrain: true
     trailEffect: {
       type: ParticleEffect
       length: 24
@@ -43,6 +44,7 @@ ammoTypes: {
     type: LiquidBulletType
     speed: 2
     parentizeEffects: true
+    collideTerrain: true
     trailEffect: {
       type: ParticleEffect
       length: 24
@@ -73,6 +75,7 @@ ammoTypes: {
     type: LiquidBulletType
     speed: 2
     lifetime: 320
+    collideTerrain: true
     trailChance: 1
     trailInterval: 4
     liquid: slag
@@ -104,6 +107,7 @@ ammoTypes: {
     speed: 2
     lifetime: 320
     liquid: oil
+    collideTerrain: true
     ammoMultiplier: 1
     damage: 150
     orbRadius: 8
