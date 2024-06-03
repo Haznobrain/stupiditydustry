@@ -1,0 +1,17 @@
+consumes: {
+  power: 30
+    }
+shootSound: railgun
+    shootEffect: railShoot
+range: 500
+shootType: {
+  type: RailBulletType
+  shootEffect: railShoot
+  pierceEffect: railHit
+  pointEffect: railTrail
+  hitEffect: massiveExplosion
+  length: 500
+  smokeEffect: shootBig2
+  damage: 1250
+  pierceDamageFactor: 0.5
+    }
