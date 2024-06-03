@@ -125,7 +125,6 @@ ammoTypes: {
           }
     trailChance: 1
     trailInterval: 4
-    trailEffect: hitLiquid
     hitEffect: hitLiquid
     collidesTiles: true
     drag: 0
