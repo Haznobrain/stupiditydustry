@@ -18,6 +18,7 @@ ammoTypes: {
     ammoMultiplier: 1
     damage: 100
     orbRadius: 8
+    parentizeEffects: true
     trailEffect: {
       type: ParticleEffect
       length: 24
@@ -27,6 +28,7 @@ ammoTypes: {
       colorFrom: 596ab8
       colorTo: 596ab8
       lifetime: 16
+      rotWithParent: true
           }
     trailChance: 1
     trailInterval: 4
@@ -40,6 +42,7 @@ ammoTypes: {
   cryofluid: {
     type: LiquidBulletType
     speed: 2
+    parentizeEffects: true
     trailEffect: {
       type: ParticleEffect
       length: 24
@@ -49,6 +52,7 @@ ammoTypes: {
       colorFrom: 6ecdec
       colorTo: 6ecdec
       lifetime: 16
+      rotWithParents: true
           }
     lifetime: 320
     liquid: cryofluid
@@ -72,6 +76,7 @@ ammoTypes: {
     trailChance: 1
     trailInterval: 4
     liquid: slag
+    parentizeEffects: true
     trailEffect: {
       type: ParticleEffect
       length: 24
@@ -81,6 +86,7 @@ ammoTypes: {
       colorFrom: ffa166
       colorTo: ffa166
       lifetime: 16
+      rotWithParent: true
           }
     ammoMultiplier: 1
     damage: 200
@@ -101,6 +107,7 @@ ammoTypes: {
     ammoMultiplier: 1
     damage: 150
     orbRadius: 8
+    parentizeEffects: true
     trailEffect: {
       type: ParticleEffect
       length: 24
@@ -110,6 +117,7 @@ ammoTypes: {
       colorFrom: 313131
       colorTo: 313131
       lifetime: 16
+      rotWithParent: true
           }
     trailChance: 1
     trailInterval: 4
