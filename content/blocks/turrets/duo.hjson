@@ -5,11 +5,13 @@ hasPower: true
 consumesPower: true
 reload: 30
 range: 60
+targetGround: false
 ammoTypes: {
   scrap: {
   type: LaserBoltBulletType
   damage: 40
   speed: 0.5
   lifetime: 120
+  collidesGround: false
     }
 }
