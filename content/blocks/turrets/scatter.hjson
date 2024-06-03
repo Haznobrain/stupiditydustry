@@ -1,0 +1,20 @@
+targetAir: false
+targetGround: true
+range: 480
+ammoTypes: {
+  copper: {
+    type: MissileBulletType
+    damage: 80
+    speed: 100
+    lifetime: 4.8
+    knockBack: 20
+    collidesAir: false
+      }
+}
+reload: 240
+consumes: {
+  coolant: {
+  amount: 1
+  optional: false
+    }
+}
