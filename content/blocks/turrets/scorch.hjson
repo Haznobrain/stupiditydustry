@@ -56,3 +56,4 @@ requirements: [
     copper/2000
     ]
 range: 80
+continuous: true
