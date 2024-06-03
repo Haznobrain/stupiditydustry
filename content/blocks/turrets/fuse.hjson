@@ -20,7 +20,7 @@ shoot: {
   shots: 1
     }
 ammoPerShot: 200
-ammoCapacity: 400
+maxAmmo: 400
 ammoTypes: {
   thorium: {
     ammoMultiplier: 1
