@@ -1,0 +1,52 @@
+ammoTypes: {
+  metaglass: {
+    type: ContinuousLaserBulletType
+    damage: 50
+    length: 80
+    width: 10
+    colors: [ff0000, ffffff, 000000, 000000]
+    lifetime: 120
+    spin: 10
+    hitEffect: {
+      type: MultiEffect
+      effects: [
+{
+type: ParticleEffect
+length: 10
+lengthFrom: 10
+lengthTo: 10
+strokeFrom: 2
+strokeTo: 0
+line: true
+colorFrom: ff0000
+colorTo: ff0000
+  }
+        {
+type: ParticleEffect
+length: 10
+lengthFrom: 10
+lengthTo: 10
+strokeFrom: 2
+strokeTo: 0
+line: true
+colorFrom: ffffff
+colorTo: ffffff
+  }
+{
+type: ParticleEffect
+length: 10
+lengthFrom: 10
+lengthTo: 10
+strokeFrom: 2
+strokeTo: 0
+line: true
+colorFrom: 000000
+colorTo: 000000
+  }
+]
+  }
+reload: 120
+requirements: [
+    copper/2000
+    ]
+range: 80
