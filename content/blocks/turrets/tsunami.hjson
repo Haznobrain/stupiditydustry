@@ -19,6 +19,8 @@ ammoTypes: {
     damage: 100
     orbRadius: 8
     trailEffect: hitLiquid
+    trailChance: 1
+    trailInterval: 4
     hitEffect: hitLiquid
     collidesTiles: true
     drag: 0
@@ -34,6 +36,8 @@ ammoTypes: {
     ammoMultiplier: 1
     damage: 140
     orbRadius: 8
+    trailChance: 1
+    trailInterval: 4
     trailEffect: hitLiquid
     hitEffect: hitLiquid
     collidesTiles: true
@@ -46,6 +50,8 @@ ammoTypes: {
     type: LiquidBulletType
     speed: 2
     lifetime: 320
+    trailChance: 1
+    trailInterval: 4
     liquid: slag
     ammoMultiplier: 1
     damage: 200
@@ -62,10 +68,12 @@ ammoTypes: {
     type: LiquidBulletType
     speed: 2
     lifetime: 320
-    liquid: slag
+    liquid: oil
     ammoMultiplier: 1
     damage: 150
     orbRadius: 8
+    trailChance: 1
+    trailInterval: 4
     trailEffect: hitLiquid
     hitEffect: hitLiquid
     collidesTiles: true
