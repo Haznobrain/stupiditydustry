@@ -6,13 +6,14 @@ reload: 4
   shootEffect: {
     type: ParticleEffect
     interp: circleOut
-    sizeInterp: pow5Out
+    sizeInterp: pow5In
     colorFrom: ffffff
     colorTo: baf4ff
     particles: 25
     sizeFrom: 6
     length: 64
     lifetime: 30
+    cone: 10
   }
 shoot: {
   firstShotDelay: 0
