@@ -8,5 +8,6 @@ ammoTypes: {
       effects: [reactorExplosion, dynamicSpikes]
         }
   }
+}
 range: 72
 details: "it's a nuke, dumbass"
