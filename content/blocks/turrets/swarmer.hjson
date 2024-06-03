@@ -1,0 +1,34 @@
+ammoTypes: {
+  copper: {
+    type: BasicBulletType
+    damage: 18
+    splashDamage: 35
+    speed: 8
+    lifetime: 30
+    height: 8
+    width: 8
+    shrinkY: 0
+      }
+   graphite: {
+    type: BasicBulletType
+    damage: 40
+    splashDamage: 50
+    speed: 8
+    lifetime: 30
+    height: 8
+    width: 8
+    shrinkY: 0
+    reloadMultiplier: 1.6
+      }
+  silicon: {
+    type: BasicBulletType
+    damage: 20
+    splashDamage: 35
+    speed: 8
+    lifetime: 30
+    height: 8
+    width: 8
+    shrinkY: 0
+    reloadMultiplier: 0.5
+      }}
+reload: 6
