@@ -3,7 +3,7 @@ type: DrawTurret
   parts: [
 {
 type: RegionPart
-suffix: -body
+suffix: -pew
 color: 00000000
 colorTo: ffffff
 mixColorTo: 00000000
@@ -25,7 +25,7 @@ ammoTypes: {
   thorium: {
     ammoMultiplier: 1
     type: BasicBulletType
-    sprite: fuse-body
+    sprite: fuse-pew
     speed: 4
     lifetime: 144
     damage: 600
