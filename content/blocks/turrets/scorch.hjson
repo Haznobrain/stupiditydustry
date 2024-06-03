@@ -45,6 +45,8 @@ colorTo: 000000
   }
 ]
   }
+}
+}
 reload: 120
 requirements: [
     copper/2000
