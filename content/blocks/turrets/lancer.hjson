@@ -26,5 +26,7 @@ shootType: {
   hitSize: 8
   despawnEffect: none
   hitEffect: hitFlameSmall
+  pierce: true
+  pierceCap: 20
 }
 details: "wet fart"
