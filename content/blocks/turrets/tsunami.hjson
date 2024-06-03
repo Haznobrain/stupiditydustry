@@ -26,7 +26,7 @@ ammoTypes: {
       sizeFrom: 6
       colorFrom: 596ab8
       colorTo: 596ab8
-      lifetime: 90
+      lifetime: 16
           }
     trailChance: 1
     trailInterval: 4
@@ -48,7 +48,7 @@ ammoTypes: {
       sizeFrom: 6
       colorFrom: 6ecdec
       colorTo: 6ecdec
-      lifetime: 90
+      lifetime: 16
           }
     lifetime: 320
     liquid: cryofluid
@@ -80,7 +80,7 @@ ammoTypes: {
       sizeFrom: 6
       colorFrom: ffa166
       colorTo: ffa166
-      lifetime: 90
+      lifetime: 16
           }
     ammoMultiplier: 1
     damage: 200
@@ -109,7 +109,7 @@ ammoTypes: {
       sizeFrom: 6
       colorFrom: 313131
       colorTo: 313131
-      lifetime: 90
+      lifetime: 16
           }
     trailChance: 1
     trailInterval: 4
