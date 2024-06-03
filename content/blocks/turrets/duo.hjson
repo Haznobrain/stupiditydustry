@@ -1,0 +1,12 @@
+type: PowerTurret
+consumes: {
+  power: 0.1
+    }
+reload: 30
+range: 60
+shootType: {
+  type: LaserBoltBulletType
+  damage: 40
+  speed: 0.5
+  lifetime: 120
+    }
