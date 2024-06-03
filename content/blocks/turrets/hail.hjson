@@ -1,0 +1,45 @@
+reload: 1
+targetAir: true
+targetGround: false
+shoot: {
+  type: ShootAlternate
+  barrels: 6
+  spread: 1
+    }
+ammoTypes: {
+  metaglass: {
+    type: BasicBulletType
+    damage: 6
+    speed: 8
+    lifetime: 29.375
+    height: 24
+    width: 2
+    shrinkY: 0
+    shrinkX: 0
+    pierce: true
+    pierceCap: 3
+    fragOnHit: false
+    fragOnDespawn: true
+    fragBullets: 3
+    fragBullet: {
+      type: BasicBulletType
+      damage: 8
+      speed: 8
+      drag: 0.1
+      lifetime: 300
+        }
+    fragRandomSpread: 10
+      }
+silicon: {
+    type: BasicBulletType
+    damage: 7
+    speed: 8
+    lifetime: 29.375
+    height: 24
+    width: 2
+    shrinkY: 0
+    shrinkX: 0
+    pierce: true
+    pierceCap: 5
+      }
+}
