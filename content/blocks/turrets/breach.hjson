@@ -11,7 +11,7 @@ ammoTypes: {
     smokeEffect: shootBigSmoke
     ammoMultiplier: 1
     weaveScale: 60
-    weaveMag: 1
+    weaveMag: 30
     pierceCap: 2
     pierce: true
     pierceBuilding: true
@@ -38,7 +38,7 @@ ammoTypes: {
     smokeEffect: shootBigSmoke
     ammoMultiplier: 1
     weaveScale: 60
-    weaveMag: 1
+    weaveMag: 30
     pierceCap: 3
     pierce: true
     pierceBuilding: true
