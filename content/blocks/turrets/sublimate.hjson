@@ -11,7 +11,7 @@ ammoTypes: {
     intervalBullets: 3
     bulletInterval: 1
     intervalRandomSpread: 0
-          layer: 110
+    layer: 110
     intervalBullet: {
           instantDisappear: true
           fragRandomSpread: 0
@@ -38,7 +38,7 @@ ammoTypes: {
                       line: true
                       interp: circleOut
                       sizeInterp: pow5In
-                      layer: 99.999
+                      layer: 100
                         }
               despawnEffect: none
               trailEffect: none
