@@ -1,0 +1,87 @@
+type: missile
+speed: 4.6
+maxRange: 6
+lifetime: 330
+outlineColor: 262626
+engineColor: ff744f
+trailColor: ff744f
+engineLayer: 110
+engineSize: 3.1
+engineOffset: 10
+rotateSpeed: 0.25
+trailLength: 18
+missileAccelTime: 50
+lowAltitude: true
+loopSoundVolume: 0.6
+deathSound: largeExplosion
+targetAir: false
+fogRadius: 6
+health: 210
+hidden: true
+weapons: [
+{
+shootCone: 360
+mirror: false
+reload: 1
+deathExplosionEffect: massiveExplosion
+shootOnDeath: true
+shake: 10
+bullet: {
+  type: ExplosionBulletType
+  splashDamage: 1500
+  splashDamageRadius: 65
+  hitColor: ff744f
+  shootEffect: {
+    type: MultiEffect
+    effects: [massiveExplosion, scatheExplosion, scatheLight, {
+        type: WaveEffect
+        lifetime: 10
+        strokeFrom: 4
+        sizeTo: 130
+          }]}
+  collidesAir: false
+  buildingDamage: 0.25
+  ammoMultiplier: 1
+  fragLifeMin: 0.1
+  fragBullets: 7
+  fragBullet: {
+      type: ArtilleryBulletType
+      speed: 3.4
+      damage: 32
+      buildingDamageMultiplier: 0.3
+      drag: 0.02
+      hitEffect: massiveExplosion
+      despawnEffect: scatheSlash
+      knockback: 0.8
+      lifetime: 23
+      width: 18
+      height: 18
+      collidesTiles: false
+      splashDamageRadius: 40
+      splashDamage: 160
+      backColor: ff744f
+      trailColor: ff744f
+      hitColor: ff744f
+      frontColor: ffffff
+      smokeEffect: shootBigSmoke2
+      despawnShake: 7
+      lightRadius: 30
+      lightColor: ff744f
+      lightOpacity: 0.5
+      trailLength: 20
+      trailWidth: 3.5
+      trailEffect: none
+        }
+}
+}
+  ]
+abillities: [
+{
+  type: MoveEffectAbility
+  effect: missileTrailSmoke
+  rotation: 180
+  y: -9
+  color: 646464cc
+  interval: 7
+}
+  ]
