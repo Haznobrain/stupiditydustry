@@ -11,6 +11,7 @@ ammoTypes: {
     shootEffect: {
     type: MultiEffect
     effects: [shootBigColor, colorSparkBig]
+    }
     smokeEffect: shootBigSmoke
     ammoMultiplier: 1
     weaveScale: 60
