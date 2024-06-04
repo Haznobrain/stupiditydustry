@@ -2,7 +2,7 @@ ammoTypes: {
   graphite: {
     type: BasicBulletType
     speed: 8
-    lifetime: 27.33
+    lifetime: 33
     damage: 85
     width: 13
     hitSize: 7
@@ -32,3 +32,4 @@ ammoTypes: {
       }
 }
 shootY: -12
+reload: 3
