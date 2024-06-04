@@ -1,32 +1,32 @@
-range: 500
-details: "france"
-shootSound: la-marseillaise
+range: 500,
+details: "france",
+shootSound: la-marseillaise,
 ammoTypes: {
   thorium: {
-    type: BasicBulletType
-    sprite: stupidustry-bread
-    frontColor: f9a3c7
-    damage: 800
-    speed: 10
-    lifetime: 50
-    width: 10
-    height: 12
-    shrinkY: 0.5
-    shrinkX: 0
+    type: BasicBulletType,
+    sprite: stupidustry-bread,
+    frontColor: f9a3c7,
+    damage: 800,
+    speed: 10,
+    lifetime: 50,
+    width: 10,
+    height: 12,
+    shrinkY: 0.5,
+    shrinkX: 0,
       }
   surge-alloy: {
-    type: BasicBulletType
-    sprite: stupidustry-cheese
-    damage: 700
-    speed: 10
-    lifetime: 50
-    width: 10
-    height: 12
-    shrinkY: 0.5
-    shrinkX: 0.2
-    lightning: 10
-    lightningLength: 20
-    lightningLengthRand: 1
-    lightningDamage: 10
+    type: BasicBulletType,
+    sprite: stupidustry-cheese,
+    damage: 700,
+    speed: 10,
+    lifetime: 50,
+    width: 10,
+    height: 12,
+    shrinkY: 0.5,
+    shrinkX: 0.2,
+    lightning: 10,
+    lightningLength: 20,
+    lightningLengthRand: 1,
+    lightningDamage: 10,
       }
 }
