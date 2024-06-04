@@ -1,6 +1,7 @@
 shootSound: star-banner
 loopSound: none
 reload: 450
+range: 1000
 shootType: {
   type: BasicBulletType
   sprite: circle
@@ -12,6 +13,8 @@ shootType: {
   splashDamage: 6000
   splashDamageRadius: 100
   hitSound: hawk
+  speed: 10
+  lifetime: 100
   hitEffect: {
     type: MultiEffect
     effects:[
