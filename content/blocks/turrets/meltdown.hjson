@@ -76,9 +76,17 @@ shootType: {
     bulletInterval: 1
     intervalBullets: 1
     intervalBullet: {
+      display: false
+      damage: 0
+      speed: 0
+      lifetime: 0
+      hitEffect: none
+      despawnEffect: none
+      instantDisappear: true
       spawnBullets: [
           {
           type: BulletType
+          display: false
           lifetime: 0
           instantDisappear: true
           keepVelocity: false
