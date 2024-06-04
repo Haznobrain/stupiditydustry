@@ -2,6 +2,7 @@ shootSound: star-banner
 loopSound: none
 reload: 450
 range: 1000
+details: "i can feel the freedom coming inside me! oh wait no it's internal bleeding..."
 shootType: {
   type: BasicBulletType
   sprite: circle
