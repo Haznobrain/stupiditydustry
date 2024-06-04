@@ -37,3 +37,5 @@ ammoTypes: {
     buildingDamageMultiplier: 0.3
       }
 }
+range: 390
+shake: 4
