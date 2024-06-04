@@ -16,6 +16,10 @@ ammoTypes: {
           fragRandomSpread: 0
           fragVelocityMin: 0
           fragBullets: 9
+          hitEffect: none
+          despawnEffect: none
+          shootEffect: none
+          smokeEffect: none
           fragBullet: {
                 type: PointBulletType
                 lifetime: 1
@@ -30,6 +34,9 @@ ammoTypes: {
                       strokeTo: 0
                       length: 16
                       lifetime: 12
+                      line: true
+                      interp: circleOut
+                      sizeInterp: pow5In
                         }
               despawnEffect: none
               trailEffect: none
