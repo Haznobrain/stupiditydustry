@@ -2,7 +2,7 @@ consumeAmmoOnce: false
 maxAmmo: 360
 shoot: {
   type: ShootSpread
-  spread: 1
+  spread: 2
   shots: 360
     }
 range: 120
