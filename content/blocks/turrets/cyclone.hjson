@@ -1,0 +1,39 @@
+ammoTypes: {
+  thorium: {
+    type: ArtilleryBulletType
+    speed: 2.5
+    collidesAir: true
+    splashDamage: 360
+    knockback: 2
+    lifetime: 140
+    height: 19
+    width: 17
+    hitEffect: {
+      type: MultiEffect
+        effects: [titanExplosion, titanSmoke]
+        }
+    despawnEffect: none
+    splashDamageRadius: 65
+    damage: 350
+    scaledSplashDamage: true
+    backColor: ea8878
+    hitColor: ea8878
+    trailColor: ea8878
+    frontColor: ffffff
+    ammoMultiplier: 1
+    hitSound: titanExplosion
+    status: blasted
+    trailLength: 32
+    trailWidth: 3.35
+    trailSinScl: 2.5
+    trailSinMag: 0.5
+    trailEffect: none
+    despawnShake: 7
+    shootEffect: shootTitan
+    smokeEffect: shootSmokeTitan
+    trailInterp: slope
+    shrinkX: 0.2
+    shrinkY: 0.1
+    buildingDamageMultiplier: 0.3
+      }
+}
