@@ -8,7 +8,9 @@ ammoTypes: {
     hitSize: 7
     height: 19
     reloadMultiplier: 1
-    shootEffect: sfe
+    shootEffect: {
+    type: MultiEffect
+    effects: [shootBigColor, colorSparkBig]
     smokeEffect: shootBigSmoke
     ammoMultiplier: 1
     weaveScale: 60
