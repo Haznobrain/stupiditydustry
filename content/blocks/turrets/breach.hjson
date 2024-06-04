@@ -1,31 +1,5 @@
 ammoTypes: {
-  beryllium: {
-    type: BasicBulletType
-    speed: 7.5
-    damage: 85
-    lifetime: 27.33
-    width: 12
-    hitSize: 7
-    height: 20
-    shootEffect: sfe
-    smokeEffect: shootBigSmoke
-    ammoMultiplier: 1
-    weaveScale: 60
-    weaveMag: 30
-    pierceCap: 2
-    pierce: true
-    pierceBuilding: true
-    hitColor: 3a8f64
-    backColor: 3a8f64
-    trailColor: 3a8f64
-    frontColor: ffffff
-    trailWidth: 2.1
-    trailLength: 10
-    hitEffect: hitBulletColor
-    despawnEffect: hitBulletColor
-    buildingDamageMultiplier: 0.3
-      }
-  tungsten: {
+  graphite: {
     type: BasicBulletType
     speed: 8
     lifetime: 27.33
