@@ -15,4 +15,19 @@ shootSound: la-marseillaise
     pierceBuilding: true
     sprite: bread
       }
+ surge-alloy: {
+    type: BasicBulletType
+    damage: 700
+    speed: 10
+    lifetime: 50
+    width: 16
+    height: 23
+    pierceCap: 2
+    pierce: true
+    pierceBuilding: true
+    sprite: cheese
+    lightning: 12
+    lightningLength: 20
+    lightningDamage: 10
+      }
  }
