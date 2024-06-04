@@ -3,6 +3,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 7.5
     damage: 85
+    lifetime: 27.33
     width: 12
     hitSize: 7
     height: 20
@@ -23,10 +24,12 @@ ammoTypes: {
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
     buildingDamageMultiplier: 0.3
+    lifetime: 
       }
   tungsten: {
     type: BasicBulletType
-    speed: 7.5
+    speed: 8
+    lifetime: 27.33
     damage: 85
     width: 13
     hitSize: 7
@@ -52,3 +55,4 @@ ammoTypes: {
     rangeChange: 40
       }
 }
+shootY: -12
