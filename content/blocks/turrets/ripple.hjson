@@ -1,0 +1,23 @@
+consumeAmmoOnce: false
+maxAmmo: 360
+shoot: {
+  type: ShootSpread
+  spread: 1
+  shots: 360
+    }
+range: 120
+reload: 5
+shootCone: 360
+shootY: 0
+recoil: 0
+shake: 120
+ammoTypes: {
+  silicon : {
+    type: LaserBulletType
+    length: 120
+    damage: 240
+    ammoMultiplier: 50
+    lifetime: 50
+    sideLength: 0
+      }
+}
