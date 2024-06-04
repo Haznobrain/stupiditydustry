@@ -1,6 +1,7 @@
 range: 500
 details: "france"
 shootSound: la-marseillaise
+shake: 300
  ammoTypes: {
  thorium: {
    type: BasicBulletType
@@ -13,7 +14,7 @@ shootSound: la-marseillaise
     pierceCap: 2
     pierce: true
     pierceBuilding: true
-    sprite: bread
+    sprite: stupidustry-bread
       }
  surge-alloy: {
     type: BasicBulletType
@@ -25,7 +26,7 @@ shootSound: la-marseillaise
     pierceCap: 2
     pierce: true
     pierceBuilding: true
-    sprite: cheese
+    sprite: stupidustry-cheese
     lightning: 12
     lightningLength: 20
     lightningDamage: 10
