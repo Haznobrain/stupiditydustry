@@ -7,3 +7,4 @@ ammoTypes: {
     }
 }
 consumeAmmoOnce: false
+range: 1350
