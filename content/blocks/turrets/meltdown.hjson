@@ -39,6 +39,8 @@ shootType: {
       lengthTo: 10
       strokeFrom: 3
       strokeTo: 0
+      sizeInterp: pow5In
+      interp: circleOut
         }
             {
       type: ParticleEffect
@@ -51,6 +53,8 @@ shootType: {
       lengthTo: 10
       strokeFrom: 3
       strokeTo: 0
+      sizeInterp: pow5In
+      interp: circleOut
           }
       {
       type: ParticleEffect
@@ -63,6 +67,8 @@ shootType: {
       lengthTo: 10
       strokeFrom: 3
       strokeTo: 0
+      sizeInterp: pow5In
+      interp: circleOut
         }
       ]
         }
@@ -90,6 +96,8 @@ shootType: {
                 colorTo: ffffff
                 length: 8
                 lifetime: 30
+      sizeInterp: pow5In
+      interp: circleOut
                   }
             splashDamage: 150
             splashDamageRadius: 24
@@ -113,6 +121,8 @@ shootType: {
       lengthTo: 1
       strokeFrom: 1
       strokeTo: 0
+      sizeInterp: pow5In
+      interp: circleOut
         }
             {
       type: ParticleEffect
@@ -125,6 +135,8 @@ shootType: {
       lengthTo: 1
       strokeFrom: 1
       strokeTo: 0
+      sizeInterp: pow5In
+      interp: circleOut
           }
       {
       type: ParticleEffect
@@ -137,6 +149,8 @@ shootType: {
       lengthTo: 1
       strokeFrom: 1
       strokeTo: 0
+      sizeInterp: pow5In
+      interp: circleOut
       }
           ]
         }
@@ -186,6 +200,8 @@ shootType: {
       lengthTo: 1
       strokeFrom: 1
       strokeTo: 0
+      sizeInterp: pow5In
+      interp: circleOut
         }
             {
       type: ParticleEffect
@@ -198,6 +214,8 @@ shootType: {
       lengthTo: 1
       strokeFrom: 1
       strokeTo: 0
+      sizeInterp: pow5In
+      interp: circleOut
           }
       {
       type: ParticleEffect
@@ -210,6 +228,8 @@ shootType: {
       lengthTo: 1
       strokeFrom: 1
       strokeTo: 0
+      sizeInterp: pow5In
+      interp: circleOut
         }
       ]
         }
@@ -259,6 +279,8 @@ shootType: {
       lengthTo: 1
       strokeFrom: 1
       strokeTo: 0
+      sizeInterp: pow5In
+      interp: circleOut
         }
             {
       type: ParticleEffect
@@ -271,6 +293,8 @@ shootType: {
       lengthTo: 1
       strokeFrom: 1
       strokeTo: 0
+      sizeInterp: pow5In
+      interp: circleOut
           }
       {
       type: ParticleEffect
@@ -283,6 +307,8 @@ shootType: {
       lengthTo: 1
       strokeFrom: 1
       strokeTo: 0
+      sizeInterp: pow5In
+      interp: circleOut
         }
       ]
         }
