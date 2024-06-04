@@ -1,0 +1,7 @@
+ammoTypes: {
+  graphite: {
+  spawnUnit: scathe-missile
+  ammoMultiplier: 1
+    }
+}
+consumeAmmo: false
