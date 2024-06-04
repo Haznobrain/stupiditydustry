@@ -1,7 +1,6 @@
-shootSound: la-marseillaise
 shake: 300
 range: 500
-details: "we have come for your eardrums"
+details: "france"
 ammoTypes: {
   thorium: {
     sprite: stupidustry-bread
