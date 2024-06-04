@@ -1,0 +1,288 @@
+shootSound: star-banner
+loopSound: none
+reload: 450
+shootType: {
+  type: BasicBulletType
+  sprite: circle
+  damage: 1500
+  height: 32
+  width: 32
+  shrinkY: 0
+  shrinkX: 0
+  splashDamage: 6000
+  splashDamageRadius: 100
+  hitSound: hawk
+  hitEffect: {
+    type: MultiEffect
+    effects:[
+    {
+      type: WaveEffect
+      sizeTo: 100
+      colorTo: ffffff
+      colorFrom: ff0000
+      }
+      {
+      type: ParticleEffect
+      colorFrom: ffffff
+      colorTo: ffffff
+      lengthTo: 100
+      particles: 40
+      line: true
+      lengthFrom: 30
+      lengthTo: 10
+      strokeFrom: 3
+      strokeTo: 0
+        }
+            {
+      type: ParticleEffect
+      colorFrom: ff0000
+      colorTo: ff0000
+      lengthTo: 100
+      particles: 40
+      line: true
+      lengthFrom: 30
+      lengthTo: 10
+      strokeFrom: 3
+      strokeTo: 0
+          }
+      {
+      type: ParticleEffect
+      colorFrom: 000fff
+      colorTo: 000fff
+      lengthTo: 100
+      particles: 40
+      line: true
+      lengthFrom: 30
+      lengthTo: 10
+      strokeFrom: 3
+      strokeTo: 0
+        }
+      ]
+        }
+    bulletInterval: 1
+    intervalBullets: 1
+    intervalBullet: {
+      spawnBullets: [
+          {
+          type: BulletType
+          lifetime: 0
+          instantDisappear: true
+          keepVelocity: false
+          fragBullets: 1
+          fragBullet: {
+            type: BasicBulletType
+            speed: 4
+            lifetime: 40
+            damage: 110
+            backColor: ffffff
+            trailChance: 1
+            trailInterval: 8
+            trailEffect: {
+                type: ParticleEffect
+                colorFrom: ffffff
+                colorTo: ffffff
+                length: 8
+                lifetime: 30
+                  }
+            splashDamage: 150
+            splashDamageRadius: 24
+                hitEffect: {
+    type: MultiEffect
+    effects:[
+    {
+      type: WaveEffect
+      sizeTo: 24
+      colorTo: ffffff
+      colorFrom: ffffff
+      }
+      {
+      type: ParticleEffect
+      colorFrom: ffffff
+      colorTo: ffffff
+      lengthTo: 24
+      particles: 10
+      line: true
+      lengthFrom: 7.5
+      lengthTo: 1
+      strokeFrom: 1
+      strokeTo: 0
+        }
+            {
+      type: ParticleEffect
+      colorFrom: ff0000
+      colorTo: ff0000
+      lengthTo: 24
+      particles: 10
+      line: true
+      lengthFrom: 7.5
+      lengthTo: 1
+      strokeFrom: 1
+      strokeTo: 0
+          }
+      {
+      type: ParticleEffect
+      colorFrom: 000fff
+      colorTo: 000fff
+      lengthTo: 24
+      particles: 10
+      line: true
+      lengthFrom: 7.5
+      lengthTo: 1
+      strokeFrom: 1
+      strokeTo: 0
+      }
+          ]
+        }
+      sprite: missile
+        }
+          }
+          {
+          type: BulletType
+          lifetime: 0
+          instantDisappear: true
+          keepVelocity: false
+          fragBullets: 1
+          fragBullet: {
+            type: BasicBulletType
+            speed: 4
+            lifetime: 40
+            damage: 110
+            backColor: ff0000
+            trailChance: 1
+            trailInterval: 8
+            trailEffect: {
+                type: ParticleEffect
+                colorFrom: ff0000
+                colorTo: ff0000
+                length: 8
+                lifetime: 30
+                  }
+            splashDamage: 150
+            splashDamageRadius: 24
+                hitEffect: {
+    type: MultiEffect
+    effects:[
+    {
+      type: WaveEffect
+      sizeTo: 24
+      colorTo: ffffff
+      colorFrom: ff0000
+      }
+      {
+      type: ParticleEffect
+      colorFrom: ffffff
+      colorTo: ffffff
+      lengthTo: 24
+      particles: 10
+      line: true
+      lengthFrom: 7.5
+      lengthTo: 1
+      strokeFrom: 1
+      strokeTo: 0
+        }
+            {
+      type: ParticleEffect
+      colorFrom: ff0000
+      colorTo: ff0000
+      lengthTo: 24
+      particles: 10
+      line: true
+      lengthFrom: 7.5
+      lengthTo: 1
+      strokeFrom: 1
+      strokeTo: 0
+          }
+      {
+      type: ParticleEffect
+      colorFrom: 000fff
+      colorTo: 000fff
+      lengthTo: 24
+      particles: 10
+      line: true
+      lengthFrom: 7.5
+      lengthTo: 1
+      strokeFrom: 1
+      strokeTo: 0
+        }
+      ]
+        }
+      sprite: missile
+        }
+          }
+          {
+          type: BulletType
+          lifetime: 0
+          instantDisappear: true
+          keepVelocity: false
+          fragBullets: 1
+          fragBullet: {
+            type: BasicBulletType
+            speed: 4
+            lifetime: 40
+            damage: 110
+            trailChance: 1
+            trailInterval: 8
+            backColor: 000fff
+            trailEffect: {
+                type: ParticleEffect
+                colorFrom: 000fff
+                colorTo: 000fff
+                length: 8
+                lifetime: 30
+                  }
+            splashDamage: 150
+            splashDamageRadius: 24
+                hitEffect: {
+    type: MultiEffect
+    effects:[
+    {
+      type: WaveEffect
+      sizeTo: 24
+      colorTo: ffffff
+      colorFrom: 000fff
+      }
+      {
+      type: ParticleEffect
+      colorFrom: ffffff
+      colorTo: ffffff
+      lengthTo: 24
+      particles: 10
+      line: true
+      lengthFrom: 7.5
+      lengthTo: 1
+      strokeFrom: 1
+      strokeTo: 0
+        }
+            {
+      type: ParticleEffect
+      colorFrom: ff0000
+      colorTo: ff0000
+      lengthTo: 24
+      particles: 10
+      line: true
+      lengthFrom: 7.5
+      lengthTo: 1
+      strokeFrom: 1
+      strokeTo: 0
+          }
+      {
+      type: ParticleEffect
+      colorFrom: 000fff
+      colorTo: 000fff
+      lengthTo: 24
+      particles: 10
+      line: true
+      lengthFrom: 7.5
+      lengthTo: 1
+      strokeFrom: 1
+      strokeTo: 0
+        }
+      ]
+        }
+      sprite: missile
+        }
+          }
+    ]
+          }
+          }
+          }
