@@ -1,10 +1,11 @@
 shake: 300
 range: 500
 details: "france"
+shootSound: la-marseillaise
 ammoTypes: {
   thorium: {
+    type: BasicBulletType
     sprite: stupidustry-bread
-    backSprite: stupidustry-bread-back
     frontColor: f9a3c7
     damage: 800
     speed: 10
@@ -15,6 +16,7 @@ ammoTypes: {
     shrinkX: 0
       }
   surge-alloy: {
+    type: BasicBulletType
     sprite: stupidustry-cheese
     damage: 700
     speed: 10
