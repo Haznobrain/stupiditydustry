@@ -2,6 +2,8 @@ ammoTypes: {
   graphite: {
   spawnUnit: scathe-missile
   ammoMultiplier: 1
+  shootEffect: shootBig
+  smokeEffect: shootSmokeMissile
     }
 }
-consumeAmmo: false
+consumeAmmoOnce: false
