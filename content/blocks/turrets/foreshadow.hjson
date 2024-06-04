@@ -1,0 +1,14 @@
+reload: 0.1
+ammoTypes: {
+  surge-alloy: {
+    type: LiquidBulletType
+    liquid: slag
+    lifetime: 50
+    speed: 10
+    orbSize: 10
+    damage: 300
+    despawnHit: true
+    knockback: 2
+      }
+}
+details: "the true super laser piss, eggman's perfect creation"
