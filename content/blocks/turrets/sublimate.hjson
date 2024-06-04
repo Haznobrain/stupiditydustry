@@ -1,0 +1,42 @@
+ammoTypes: {
+  hydrogen: {
+    type: ContinuousFlameBulletType
+    divisions: 20
+    lengthWidthPans: [1.0, 1.0, 0.32, 1.0, 1.0, 1.0, 1.0, 1.0, 0.2, 0.5, 0.8, 0.15, 0.25, 1.0, 0.1]
+    colors: [c1ffff, d7ffff, e9ffff, edffff, ffffff]
+    damage: 100
+    flareColor: c1ffff
+    length: 110
+    width: 10
+    intervalBullets: 3
+    bulletInterval: 1
+    intervalRandomSpread: 0
+    intervalBullet: {
+          instantDisappear: true
+          fragRandomSpread: 0
+          fragVelocityMin: 0
+          fragBullets: 9
+          fragBullet: {
+                type: PointBulletType
+                lifetime: 1
+                speed: 110
+                splashDamage: 1500
+                splashDamageRadius: 5
+                hitEffect: {
+                      type: ParticleEffect
+                      lengthTo: 10
+                      lengthFrom: 10
+                      strokeFrom: 2
+                      strokeTo: 0
+                      length: 16
+                      lifetime: 12
+                        }
+              trailEffect: none
+              shootEffect: none
+              smokeEffect: none
+                }
+    }
+      }
+}
+range: 110
+loopSound: beam
