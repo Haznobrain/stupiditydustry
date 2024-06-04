@@ -1,16 +1,17 @@
-range: 500,
-details: "france",
-shootSound: la-marseillaise,
+range: 500
+details: "france"
+shootSound: la-marseillaise
 ammoTypes: {
   thorium: {
-    type: BasicBulletType,
-    frontColor: f9a3c7,
-    damage: 800,
-    speed: 10,
-    lifetime: 50,
-    width: 10,
-    height: 12,
-    shrinkY: 0.5,
-    shrinkX: 0,
+    type: BasicBulletType
+    frontColor: f9a3c7
+    damage: 800
+    speed: 10
+    lifetime: 50
+    width: 16
+    height: 23
+    pierceCap: 2
+    pierce: true
+    pierceBuilding: true
       }
 }
