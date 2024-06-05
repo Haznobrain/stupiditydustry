@@ -118,4 +118,4 @@ ammoTypes: {
       }
 }
 inaccuracy: 17
-reload: 4
+reload: 1
