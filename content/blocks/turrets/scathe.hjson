@@ -22,7 +22,7 @@ ammoTypes: {
     trailWidth: 24
     hitSize: 32
     weaveScale: 60
-    weaveMag: 2
+    weaveMag: 60
     fragBullet: {
       type: BulletType
       lifetime: 0
