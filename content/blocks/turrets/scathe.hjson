@@ -1,7 +1,6 @@
 ammoTypes: {
   carbide: {
     type: MissileBulletType
-    rotateSpeed: 0.05
     lifetime: 300000
     damage: 12500
     fragBullets: 1
@@ -13,6 +12,7 @@ ammoTypes: {
     shrinkY: 0.5
     shrinkX: 1
     homingRange: 8000
+    homingPower: 61
     fragOnHit: true
     trailScl: 4
     trailColor: 89769a
