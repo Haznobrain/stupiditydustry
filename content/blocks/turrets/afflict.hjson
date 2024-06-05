@@ -16,6 +16,10 @@ shootType: {
     bulletInterval: 3
     intervalRandomSpread: 20
     intervalBullets: 2
+    fragBullets: 20
+    fragVelocityMin: 0.5
+    fragVelocityMax: 1.5
+    fragLifeMin: 0.5
     intervalAngle: 180
     intervalSpread: 300
     trailInterval: 3
@@ -83,6 +87,10 @@ shootType: {
     type: BasicBulletType
     shootEffect: none
     smokeEffect: none
+    fragBullets: 20
+    fragVelocityMin: 0.5
+    fragVelocityMax: 1.5
+    fragLifeMin: 0.5
     hitColor: f3e979
     sprite: large-orb
     trailEffect: missileTrail
@@ -211,6 +219,10 @@ shootType: {
     shootEffect: none
     smokeEffect: none
     hitColor: f3e979
+    fragBullets: 20
+    fragVelocityMin: 0.5
+    fragVelocityMax: 1.5
+    fragLifeMin: 0.5
     sprite: large-orb
     trailEffect: missileTrail
           bulletInterval: 3
