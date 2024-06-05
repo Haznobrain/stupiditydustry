@@ -27,7 +27,7 @@ shootType: {
           sizeFrom: 16
           colorTo: ffb94633
           colorFrom: ffffffcc
-          interp: circleOut
+          interp: pow10Out
           sizeInterp: pow5In
           lifetime: 400
           }
@@ -41,7 +41,7 @@ shootType: {
           strokeTo: 0
           colorTo: ffb94633
           colorFrom: ffb94633
-          interp: circleOut
+          interp: pow10Out
           sizeInterp: pow5In
           lifetime: 70
           }
