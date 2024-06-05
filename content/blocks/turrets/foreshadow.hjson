@@ -9,6 +9,8 @@ ammoTypes: {
     damage: 300
     despawnHit: true
     knockback: 2
+    ammoMultiplier: 50
       }
 }
+maxAmmo: 5000
 details: "the true super laser piss, eggman's perfect creation"
