@@ -22,7 +22,7 @@ shootType: {
       effects: [
           {
           type: ParticleEffect
-          particles: 40
+          particles: 120
           length: 250
           sizeFrom: 16
           colorTo: ffb94633
