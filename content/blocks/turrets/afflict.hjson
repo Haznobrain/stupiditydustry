@@ -13,13 +13,13 @@ shootType: {
     hitColor: f3e979
     sprite: large-orb
     trailEffect: missileTrail
-    bulletInterval: 3
-    intervalRandomSpread: 20
-    intervalBullets: 2
     fragBullets: 20
     fragVelocityMin: 0.5
     fragVelocityMax: 1.5
     fragLifeMin: 0.5
+    bulletInterval: 3
+    intervalRandomSpread: 20
+    intervalBullets: 2
     intervalAngle: 180
     intervalSpread: 300
     trailInterval: 3
@@ -84,56 +84,56 @@ shootType: {
       homingPower: 0.2
       fragBullets: 1
       fragBullet: {
-    type: BasicBulletType
-    shootEffect: none
-    smokeEffect: none
-    fragBullets: 20
-    fragVelocityMin: 0.5
-    fragVelocityMax: 1.5
-    fragLifeMin: 0.5
-    hitColor: f3e979
-    sprite: large-orb
-    trailEffect: missileTrail
-    trailInterval: 3
-    trailParam: 4
-    trailChance: 1
-          bulletInterval: 3
-    intervalRandomSpread: 20
-    intervalBullets: 2
-    intervalAngle: 180
-    intervalSpread: 300
-    pierceCap: 2
-    fragOnHit: true
-    speed: 5
-    damage: 180
-    lifetime: 80
-    width: 16
-    height: 16
-    backColor: f3e979
-    frontColor: ffffff
-    shrinkX: 0
-    shrinkY: 0
-    trailColor: f3e979
-    trailLength: 12
-    trailWidth: 2.2
-    despawnEffect: {
-      type: ExplosionEffect
-      waveColor: f3e979
-      smokeColor: d7d7d7
-      sparkColor: 7457ce
-      waveStroke: 40
-      waveRad: 40
-        }
-    hitEffect: {
-      type: ExplosionEffect
-      waveColor: f3e979
-      smokeColor: d7d7d7
-      sparkColor: 7457ce
-      waveStroke: 40
-      waveRad: 40
-        }
-    despawnSound: dullExplosion
-    shootSound: cannon
+            type: BasicBulletType
+            shootEffect: none
+            smokeEffect: none
+            fragBullets: 20
+            fragVelocityMin: 0.5
+            fragVelocityMax: 1.5
+            fragLifeMin: 0.5
+            hitColor: f3e979
+            sprite: large-orb
+            trailEffect: missileTrail
+            bulletInterval: 3
+            intervalRandomSpread: 20
+            intervalBullets: 2
+            intervalAngle: 180
+            intervalSpread: 300
+            trailInterval: 3
+            trailParam: 4
+            trailChance: 1
+            pierceCap: 2
+            fragOnHit: true
+            speed: 5
+            damage: 180
+            lifetime: 80
+            width: 16
+            height: 16
+            backColor: f3e979
+            frontColor: ffffff
+            shrinkX: 0
+            shrinkY: 0
+            trailColor: f3e979
+            trailLength: 12
+            trailWidth: 2.2
+            despawnEffect: {
+              type: ExplosionEffect
+              waveColor: f3e979
+              smokeColor: d7d7d7
+              sparkColor: 7457ce
+              waveStroke: 40
+              waveRad: 40
+                }
+            hitEffect: {
+              type: ExplosionEffect
+              waveColor: f3e979
+              smokeColor: d7d7d7
+              sparkColor: 7457ce
+              waveStroke: 40
+              waveRad: 40
+                }
+            despawnSound: dullExplosion
+            shootSound: cannon
     IntervalBullet: {
       speed: 3
       damage: 35
