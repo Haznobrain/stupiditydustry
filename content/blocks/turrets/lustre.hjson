@@ -1,0 +1,57 @@
+shootType: {
+  type: PointLaserBulletType
+  damage: 1000
+  buildingDamageMultiplier: 0.3
+  hitColor: fda981
+  fragOnHit: true
+  fragOnDespawn: false
+  damageInterval: 1
+  fragBullets: 5
+  fragBullet: {
+    type: MissileBulletType
+    damage: 0
+    splashDamage: 8500
+    pierce: true
+    pierceCap: 4
+    splashDamageRadius: 250
+    lifetime: 31.25
+    speed: 8
+    hitEffect: {
+      type: MultiEffect
+      effects: [
+          {
+          type: ParticleEffect
+          particles: 40
+          length: 250
+          sizeFrom: 16
+          colorTo: ffb94633
+          colorFrom: ffffffcc
+          interp: circleOut
+          sizeInterp: pow5In
+          lifetime: 400
+          }
+          {
+          type: ParticleEffect
+          particles: 25
+          length: 250
+          lengthFrom: 16
+          lengthTo: 16
+          strokeFrom: 2
+          strokeTo: 0
+          colorTo: ffb94633
+          colorFrom: ffb94633
+          interp: circleOut
+          sizeInterp: pow5In
+          lifetime: 70
+          }
+          {
+          type: WaveEffect
+          colorFrom: ffb94633
+          sizeTo: 250
+          lifetime: 14
+          }
+          ]
+            }
+    }
+  }
+range: 40
