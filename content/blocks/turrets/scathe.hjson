@@ -13,6 +13,11 @@ ammoTypes: {
     shrinkY: 0.5
     shrinkX: 1
     homingRange: 8000
+    fragOnHit: true
+    trailScl: 4
+    trailColor: 89769a
+    backColor: 89769a
+    frontColor: 89769a
     fragBullet: {
       type: BulletType
       lifetime: 0
