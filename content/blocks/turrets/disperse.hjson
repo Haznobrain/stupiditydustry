@@ -13,7 +13,7 @@ ammoTypes: {
     collidesTiles: false
     shootEffect: shootBigColor
     smokeEffect: shootSmokeDisperse
-    frontColor: white
+    frontColor: ffffff
     backColor: 3a8f64
     trailColor: 3a8f64
     hitColor: 3a8f64
@@ -46,7 +46,7 @@ ammoTypes: {
     collidesTiles: false
     shootEffect: shootBigColor
     smokeEffect: shootSmokeDisperse
-    frontColor: white
+    frontColor: ffffff
     backColor: 768a9a
     trailColor: 768a9a
     hitColor: 768a9a
@@ -79,7 +79,7 @@ ammoTypes: {
     collidesTiles: false
     shootEffect: shootBigColor
     smokeEffect: shootSmokeDisperse
-    frontColor: white
+    frontColor: ffffff
     backColor: d7d7d7
     trailColor: d7d7d7
     hitColor: d7d7d7
