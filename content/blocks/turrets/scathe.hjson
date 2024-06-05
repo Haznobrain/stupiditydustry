@@ -12,6 +12,7 @@ ammoTypes: {
     height: 32
     shrinkY: 0.5
     shrinkX: 1
+    homingRange: 8000
     fragBullet: {
       type: BulletType
       lifetime: 0
