@@ -2,7 +2,7 @@ ammoTypes: {
   hydrogen: {
     type: ContinuousFlameBulletType
     divisions: 20
-    lengthWidthPans: [1.0, 1.0, 0.32, 1.0, 1.0, 1.0, 1.0, 1.0, 0.2, 0.5, 0.8, 0.15, 0.25, 1.0, 0.1]
+    lengthWidthPans: [1.0, 1.0, 0.32, 1.0, 1.0, 1.0, 1.0, 0.9, 0.2, 0.5, 0.8, 0.15, 0.25, 0.7, 0.1]
     colors: [c1ffff, d7ffff, e9ffff, edffff, ffffff]
     damage: 100
     flareColor: c1ffff
