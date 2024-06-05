@@ -83,6 +83,7 @@ shootType: {
       buildingDamageMultiplier: 0.3
       homingPower: 0.2
       fragBullets: 1
+      fragRandomSpread: 0
       fragBullet: {
             type: BasicBulletType
             shootEffect: none
@@ -185,8 +186,61 @@ shootType: {
           }
       buildingDamageMultiplier: 0.3
       homingPower: 0.2
+    fragRandomSpread: 0
+    fragBullet: {
+      speed: 3
+      damage: 35
+      width: 9
+      hitSize: 5
+      height: 15
+      pierce: true
+      lifetime: 35
+      pierceBuilding: true
+      hitColor: f3e979
+      backColor: f3e979
+      trailColor: f3e979
+      frontColor: ffffff
+      trailWidth: 2.1
+      trailLength: 5
+      hitEffect: {
+        type: WaveEffect
+        colorFrom: f3e979
+        colorTo: f3e979
+        sizeTo: 4
+        strokeFrom: 4
+        lifetime: 10
+          }
+      buildingDamageMultiplier: 0.3
+      homingPower: 0.2
+        }
+    intervalBullet: {
+      speed: 3
+      damage: 35
+      width: 9
+      hitSize: 5
+      height: 15
+      pierce: true
+      lifetime: 35
+      pierceBuilding: true
+      hitColor: f3e979
+      backColor: f3e979
+      trailColor: f3e979
+      frontColor: ffffff
+      trailWidth: 2.1
+      trailLength: 5
+      hitEffect: {
+        type: WaveEffect
+        colorFrom: f3e979
+        colorTo: f3e979
+        sizeTo: 4
+        strokeFrom: 4
+        lifetime: 10
+          }
+      buildingDamageMultiplier: 0.3
+      homingPower: 0.2
         }
         }
+}  
 }
     fragBullet: {
       speed: 3
@@ -265,6 +319,7 @@ shootType: {
         }
     despawnSound: dullExplosion
     shootSound: cannon
+    fragRandomSpread: 0
     fragBullet: {
       speed: 3
       damage: 35
