@@ -30,7 +30,7 @@ ammoTypes: {
     hitEffect: hitBulletColor
     despawnEffect: none
     explodeRange: 12
-    splashDamage: 80
+    splashDamage: 360
     splashDamageRadius: 22
       }
   tungsten: {
@@ -38,7 +38,7 @@ ammoTypes: {
     speed: 8.5
     width: 16
     height: 16
-    knockback: 10
+    knockback: 20
     damage: 40.5
     shrinkY: 0.3
     backSprite: large-bomb-back
@@ -105,7 +105,7 @@ ammoTypes: {
         type: BasicBulletType
         knockback: 6
         speed: 3
-        damage: 5
+        damage: 50
         width: 5
         height: 12
         shrinkY: 1
