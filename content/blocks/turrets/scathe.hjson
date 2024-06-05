@@ -18,6 +18,8 @@ ammoTypes: {
     trailColor: 89769a
     backColor: 89769a
     frontColor: 89769a
+    trailLength: 800
+    trailWidth: 24
     fragBullet: {
       type: BulletType
       lifetime: 0
