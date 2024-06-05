@@ -1,0 +1,80 @@
+ammoTypes: {
+  carbide: {
+    type: MissileBulletType
+    rotateSpeed: 0.05
+    lifetime: 300000
+    damage: 12500
+    fragBullets: 1
+    speed: 0.8
+    pierce: true
+    pierceBuilding: true
+    width: 32
+    height: 32
+    shrinkY: 0.5
+    shrinkX: 1
+    fragBullet: {
+      type: BulletType
+      lifetime: 0
+      shootEffect: none
+      instantDisappear: true
+      damage: 0
+      spawnBullets: [
+        {
+          type: BulletType
+          lifetime: 0
+          hitEffect: impactReactorExplosion
+          despawnEffect: none
+          hitSize: 0
+          splashDamage: 4500
+          speed: 0
+            }
+        {
+          type: BulletType
+          lifetime: 30
+          hitEffect: impactReactorExplosion
+          despawnEffect: none
+          hitSize: 0
+          splashDamage: 4500
+          speed: 0
+            }
+        {
+          type: BulletType
+          lifetime: 60
+          hitEffect: impactReactorExplosion
+          despawnEffect: none
+          hitSize: 0
+          splashDamage: 4500
+          speed: 0
+            }
+        {
+          type: BulletType
+          lifetime: 90
+          hitEffect: impactReactorExplosion
+          despawnEffect: none
+          hitSize: 0
+          splashDamage: 4500
+          speed: 0
+            }
+        {
+          type: BulletType
+          lifetime: 120
+          hitEffect: impactReactorExplosion
+          despawnEffect: none
+          hitSize: 0
+          splashDamage: 4500
+          speed: 0
+            }
+        {
+          type: BulletType
+          lifetime: 180
+          hitEffect: impactReactorExplosion
+          despawnEffect: none
+          hitSize: 0
+          splashDamage: 4500
+          speed: 0
+            }
+        ]
+    }
+  }
+}
+reload: 1600
