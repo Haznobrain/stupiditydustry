@@ -41,7 +41,7 @@ ammoTypes: {
   ammoMultiplier: 10
   pierce: true
   pierceBuilding: true
-  buildingDamageMultiplier: 0
+  buildingDamageMultiplier: 0.000001
   hitEffect: {
     type: MultiEffect
     effects: [
