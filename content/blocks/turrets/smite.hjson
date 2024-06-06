@@ -11,6 +11,7 @@ coolant: {
 range: 1000
 reload: 5
 ammoTypes: {
+surge-alloy: {
   type: MissileBulletType
   speed: 10
   lifetime: 100
@@ -103,3 +104,4 @@ ammoTypes: {
       }
   hittable: false
     }
+}
