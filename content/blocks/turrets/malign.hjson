@@ -1,2 +1,10 @@
 heatRequirement: 0.1
 maxHeatEfficiency: 99999999999999999999
+shoot: {
+  type: ShootSummon
+  radius: 10
+  x: 0
+  y: 0
+  spread: 48
+  shots: 50
+    }
