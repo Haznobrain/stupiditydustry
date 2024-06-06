@@ -1,0 +1,106 @@
+consumes: {
+  power: 12
+    }
+coolantMultiplier: 6
+coolant: {
+  type: ConsumeLiquid
+  liquid: water
+  amount: 0.7
+  optional: false
+    }
+range: 1000
+reload: 5
+ammoTypes: {
+  type: MissileBulletType
+  speed: 10
+  lifetime: 100
+  sprite: large-orb
+  frontColor: ffffff
+  backColor: f3e979
+  trailColor: f3e979
+  hitColor: f3e979
+  smokeEffect: shootSmokeSmite
+  shootEffect: {
+    type: MultiEffect
+      effects: [shootTitan, colorSparkBig, {
+          type: WaveEffect
+          colorFrom: ffff00
+          colorTo: ffff00
+          lifetime: 12
+          sizeTo: 20
+          strokeFrom: 3
+          strokeTo: 0.3
+            }]}
+  damage: 400
+  splashDamage: 9001
+  splashDamageRadius: 100
+  trailLength: 250
+  trailWidth: 4
+  height: 12
+  width: 12
+  ammoMultiplier: 10
+  pierce: true
+  pierceBuilding: true
+  buildingDamageMultiplier: 0
+  hitEffect: {
+    type: MultiEffect
+    effects: [
+{
+  type: ParticleEffect
+  particles: 80
+  length: 100
+  colorFrom: ffffffcc
+  colorTo: ffff0033
+  sizeFrom: 14
+  sizeTo: 0
+  interp: pow10Out
+  sizeInterp: pow5In
+  lifetime: 230
+    }
+    {
+  type: ParticleEffect
+  particles: 70
+  length: 120
+  line: true
+  lengthFrom: 12
+  lengthTo: 10
+  strokeFrom: 3
+  strokeTo: 0
+  interp: pow10Out
+  sizeInterp: pow5In
+  colorFrom: ffffff
+  colorTo: ffff00
+  lifetime: 120
+    }
+{
+  type: WaveEffect
+  sizeTo: 110
+  lifetime: 14
+  colorFrom: ffffff
+  colorTo: ffff00
+  strokeFrom: 6
+  strokeTo: 0.6
+    }
+]
+    }
+  despawnHit: true
+  despawnEffect: none
+  trailEffect: disperseTrail
+  trailRotation: true
+  trailInterval: 3
+  intervalBullet: {
+    type: LightningBulletType
+    damage: 30
+    collidesAir: true
+    ammoMultiplier: 1
+    lightningColor: ffff00
+    lightningLength: 5
+    lightningLengthRand: 10
+    lifetime: 15
+    hitEffect: hitLancer
+    hittable: false
+    lightColor: ffffff
+      }
+  hittable: false
+    }
+}
