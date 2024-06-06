@@ -25,8 +25,8 @@ surge-alloy: {
     type: MultiEffect
       effects: [shootTitan, colorSparkBig, {
           type: WaveEffect
-          colorFrom: ffff00
-          colorTo: ffff00
+          colorFrom: f3e979
+          colorTo: f3e979
           lifetime: 12
           sizeTo: 20
           strokeFrom: 3
@@ -51,7 +51,7 @@ surge-alloy: {
   particles: 80
   length: 100
   colorFrom: ffffffcc
-  colorTo: ffff0033
+  colorTo: f3e97933
   sizeFrom: 14
   sizeTo: 0
   interp: pow10Out
@@ -70,7 +70,7 @@ surge-alloy: {
   interp: pow10Out
   sizeInterp: pow5In
   colorFrom: ffffff
-  colorTo: ffff00
+  colorTo: f3e979
   lifetime: 120
     }
 {
@@ -78,7 +78,7 @@ surge-alloy: {
   sizeTo: 110
   lifetime: 14
   colorFrom: ffffff
-  colorTo: ffff00
+  colorTo: f3e979
   strokeFrom: 6
   strokeTo: 0.6
     }
@@ -89,18 +89,25 @@ surge-alloy: {
   trailEffect: disperseTrail
   trailRotation: true
   trailInterval: 3
+  bulletInterval: 3
   intervalBullet: {
     type: LightningBulletType
     damage: 30
     collidesAir: true
     ammoMultiplier: 1
-    lightningColor: ffff00
+    lightningColor: f3e979
     lightningLength: 5
     lightningLengthRand: 10
     lifetime: 15
-    hitEffect: hitLancer
-    hittable: false
-    lightColor: ffffff
+    lightningType: {
+            hitEffect: hitLancer
+            hittable: false
+            lightColor: ffffff
+            damage: 0
+            despawnEffect: none
+            buildingDamageMultiplier: 0
+            lifetime: 2
+            }
       }
   hittable: false
     }
