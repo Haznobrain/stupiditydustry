@@ -2,7 +2,7 @@ heatRequirement: 0.1
 maxHeatEfficiency: 99999999999999999999
 shoot: {
   type: ShootSummon
-  radius: 10
+  radius: 11
   x: 0
   y: 0
   spread: 48
@@ -10,7 +10,7 @@ shoot: {
     }
 shootType: {
   damage: 70
-  type: flakBulletType
+  type: FlakBulletType
   sprite: missile-large
   speed: 8
   lifetime: 45
@@ -19,11 +19,11 @@ shootType: {
   hitSize: 7
   shootEffect: shootSmokeSquareBig
   smokeEffect: shootSmokeDisperse
-  hitColor: ffdf62
-  backColor: ffdf62
-  trailColor: ffdf62
-  lightningColor: ffdf62
-  circleColor: ffdf62
+  hitColor: d370d3
+  backColor: d370d3
+  trailColor: d370d3
+  lightningColor: d370d3
+  circleColor: d370d3
   frontColor: ffffff
   trailWidth: 3
   trailLength: 12
@@ -51,7 +51,7 @@ shootType: {
   fragBullets: 50
   fragBullet: {
     type: LaserBulletType
-    colors: [ffdf62, ffa947, ffffff]
+    colors: [d370d3, d370d3, ffffff]
     width: 19
     damage: 70
     hitEffect: hitLancer
