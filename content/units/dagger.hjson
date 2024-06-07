@@ -9,6 +9,7 @@ weapons: [
   x: 0
   top: false
   name: dagger-weapon
+  layerOffset: -0.001
 parts: [
       {
       type: RegionPart
