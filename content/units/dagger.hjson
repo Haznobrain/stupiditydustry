@@ -6,7 +6,7 @@ weapons: [{
   mirror: false
   x: 0
   top: false
-  name: dagger-missile
+  name: dagger-weapon
 parts: [
       {
       type: RegionPart
