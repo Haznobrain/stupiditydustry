@@ -9,7 +9,6 @@ weapons: [
   x: 0
   top: false
   name: dagger-weapon
-  region: none
 parts: [
       {
       type: RegionPart
