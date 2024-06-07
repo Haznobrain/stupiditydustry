@@ -28,6 +28,7 @@ shootType: {
   trailWidth: 3
   trailLength: 12
   hitEffect: hitBulletColor
+  despawnEffect: hitBulletColor
   trailEffect: colorSpark
   trailRotation: true
   trailInterval: 3
@@ -46,7 +47,6 @@ shootType: {
   fragSpread: 0
   fragRandomSpread: 0
   splashDamage: 0
-  hitEffect: hitSquaresColor
   collidesGround: true
   fragBullets: 50
   fragBullet: {
