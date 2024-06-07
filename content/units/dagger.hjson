@@ -9,18 +9,19 @@ weapons: [
   x: 0
   top: false
   name: dagger-weapon
+  region: none
 parts: [
       {
       type: RegionPart
       suffix: -missile
       progress: reload
-      color: 00000000
-      colorTo: ffffff
-      mixColorTo: 00000000
+      colorTo: 00000000
+      color: ffffff
+      mixColor: 00000000
       outline: true
       under: false
       layerOffset: 0
-      mixColor: d1efff
+      mixColorTo: d1efff
     }
     ]
     bullet: {
