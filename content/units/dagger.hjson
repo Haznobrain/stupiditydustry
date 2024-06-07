@@ -1,0 +1,28 @@
+
+weapons: {
+  reload: 400
+  shootStatus: unmoving
+  shootStatusDuration: 240
+  mirror: false
+  x: 0
+  top: false
+  name: dagger
+parts: [
+      {
+      type: RegionPart
+      suffix: -missile
+      progress: reload
+      color: 00000000
+      colorTo: ffffff
+      mixColorTo: 00000000
+      outline: true
+      under: false
+      layerOffset: 0
+      mixColor: d1efff
+    }
+    ]
+    bullet: {
+    spawnUnit: dagger-missile
+      }
+      }
+  ]
