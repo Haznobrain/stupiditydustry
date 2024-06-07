@@ -1,4 +1,6 @@
 type: missile
+template: MissileUnitType
+controller: MissileAi
 speed: 5
 lifetime: 60
 health: 170
