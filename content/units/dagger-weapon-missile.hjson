@@ -44,6 +44,7 @@ bullet: {
   splashDamageRadius: 20
   shootEffect: none
   smokeEffect: none
+  scaledSplashDamage: false
     }
 }
   ]
