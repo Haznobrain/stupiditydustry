@@ -1,5 +1,5 @@
 
-weapons: {
+weapons: [{
   reload: 400
   shootStatus: unmoving
   shootStatusDuration: 240
