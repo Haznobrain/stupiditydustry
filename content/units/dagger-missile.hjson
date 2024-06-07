@@ -1,0 +1,47 @@
+type: missile
+speed: 5
+lifetime: 60
+health: 170
+hitSize: 6
+rotateSpeed: 1
+deathExplosionEffect: massiveExplosion
+hidden: true
+flying: true
+engineSize: 4
+engineOffset: 4
+engineColor: ff9473
+trailColor: ff9473
+isEnnemy: false
+targetAir: true
+physics: false
+useUnitCap: false
+lowAltitude: true
+drawMinimap: false
+deathSound: explosion
+trailLength: 6
+playerControllable: false
+abilities: [
+{
+type: MoveEffectAbility
+effect: missileTrail
+interval: 3
+}
+  ]
+weapons: [
+{
+name: dagger-missile
+reload: 5
+range: 12
+x: 0
+y: 0
+shootSound: none
+bullet: {
+  type: ExplosionBulletType
+  damage: 0
+  splashDamage: 120
+  splashDamageRadius: 20
+  shootEffect: none
+  smokeEffect: none
+    }
+}
+  ]
