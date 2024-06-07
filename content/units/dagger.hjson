@@ -1,5 +1,7 @@
 
-weapons: [{
+weapons: [
+{
+  shootOnDeath: true
   reload: 400
   shootStatus: unmoving
   shootStatusDuration: 240
@@ -22,7 +24,7 @@ parts: [
     }
     ]
     bullet: {
-    spawnUnit: dagger-missile
+    spawnUnit: dagger-weapon-missile
       }
       }
   ]
