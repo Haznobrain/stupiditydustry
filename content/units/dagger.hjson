@@ -1,4 +1,5 @@
-
+hittable: true
+targetable: true
 weapons: [
 {
   shootOnDeath: true
