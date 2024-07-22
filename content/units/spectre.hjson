@@ -1,0 +1,97 @@
+health: 10
+armor: 1111111
+speed: 2
+details: "Because fuck you, that's why!1!!11"
+weapons: [
+  {
+  name: scepter-weapon
+  top: false
+  y: 1
+  x: 16
+  shootY: 8
+  reload: 1
+  ejectEffect: casing3
+  shootSound: bell
+  inaccuracy: 3
+  shoot: {
+  shots: 11
+  shotDelay: 1
+    }
+  bullet: {
+    type: BasicBulletType
+    speed: 11
+    damage: 11
+    width: 1
+    height: 11
+    lifetime: 11
+    shootEffect: shootBig
+    lightning: 11
+    lightningLength: 11
+    lightningDamage: 11
+      }
+}
+{
+name: mount-weapon
+reload: 1
+x: 8.5
+y: 6
+ejectEffect: casing1
+bullet: {
+  speed: 1
+  damage: 1
+  lifetime: 111
+  pierce: true
+  pierceBuilding: true
+  width: 11
+  height: 111
+    }
+}
+{
+name: mount-weapon
+reload: 1
+x: -8.5
+y: 6
+ejectEffect: casing1
+bullet: {
+  speed: 1
+  damage: 1
+  lifetime: 111
+  pierce: true
+  pierceBuilding: true
+  width: 11
+  height: 111
+    }
+}
+{
+name: mount-weapon
+reload: 1
+x: 8.5
+y: -7
+ejectEffect: casing1
+bullet: {
+  speed: 1
+  damage: 1
+  lifetime: 111
+  pierce: true
+  pierceBuilding: true
+  width: 11
+  height: 111
+    }
+}
+{
+name: mount-weapon
+reload: 1
+x: -8.5
+y: -7
+ejectEffect: casing1
+bullet: {
+  speed: 1
+  damage: 1
+  lifetime: 111
+  pierce: true
+  pierceBuilding: true
+  width: 11
+  height: 111
+    }
+}
+]
