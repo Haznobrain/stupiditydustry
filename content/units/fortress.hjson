@@ -1,0 +1,45 @@
+speed: 0.1
+hitSize: 13
+health: 30000
+mechFrontSway: 20
+details: "take a good whiff"
+weapons: [{
+    name: artillery
+    top: false
+    y: 1
+    x: 9
+    recoil: 10
+    shake: 1
+    ejectEffect: casing2
+    shootSound: fart
+    reload: 2
+    inaccuracy: 10
+    range: 8
+    bullet: {
+      type: BulletType
+      speed: 8
+      lifetime: 1
+      damage: 100
+      hitEffect: {
+        type: SoundEffect
+        sound: bell
+        effect: {
+        type: ParticleEffect
+        length: 10
+        baseLength: -10
+        lifetime: 20
+        region: stupidustry-azpanogen
+        spin: 3
+          }
+      }
+    shootEffect:{
+        type: ParticleEffect
+        length: 10
+        cone: 10
+        lifetime: 20
+        region: stupidustry-azpanogen
+        spin: 3
+          }
+}
+}
+]
