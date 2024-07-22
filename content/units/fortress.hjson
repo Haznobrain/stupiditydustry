@@ -20,6 +20,8 @@ weapons: [{
       speed: 24
       lifetime: 1
       damage: 100
+      smokeEffect: none
+      despawnEffect: none
       hitEffect: {
         type: SoundEffect
         sound: bell
@@ -37,7 +39,7 @@ weapons: [{
         length: 24
         sizeFrom: 6
         cone: 10
-        lifetime: 20
+        lifetime: 90
         region: stupidustry-azpanogen
         spin: 3
         interp: pow5Out
