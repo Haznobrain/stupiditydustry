@@ -1,0 +1,53 @@
+health: 6666666
+armor: 6666
+speed: 0.6
+mechFrontSway: 1.6
+rotateSpeed: 6
+hitSize: 26
+stepShake: 0.66
+mechSideSway: 0.6
+details: "looks like you could use some help, from the big boss of hell himself!"
+weapons: [
+{
+  name: reign-weapon
+  top: false
+  y: 1
+  x: 21.5
+  shootY: 11
+  reload: 6
+  recoil: 5
+  ejectEffect: casing4
+  shootSound: fart
+  bullet: {
+    type: BasicBulletType
+    speed: 6
+    damage: 66
+    pierce: true
+    pierceCap: 66
+    width: 6
+    height: 66
+    lifetime: 66
+    shootEffect: shootBig
+    fragVelocityMin: 0.4
+    splashDamage: 666
+    splashDamageRadius: 66
+    fragBullets: 6
+    fragLifeMin: 0
+    fragRandomSpread: 6
+    fragBullet: {
+        type: BasicBulletType
+        speed: 66
+        damage: 66
+        width: 6.6
+        height: 6
+        pierceBuilding: true
+        pierceCap: 6
+        pierce: true
+        lifetime: 6
+        hitEffect: plasticExplosion
+        splashDamage: 66
+        splashDamageRadius: 6
+          }
+  }
+}
+  ]
