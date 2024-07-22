@@ -21,6 +21,7 @@ weapons: [
       damage: 640
       pierceDamageFactor: 10000
       pierceEffect: none
+      collidesTerrain: true
       hitEffect: {
         type: SoundEffect
         effect: massiveExplosion
