@@ -14,10 +14,10 @@ weapons: [{
     shootSound: fart
     reload: 2
     inaccuracy: 10
-    range: 8
+    range: 24
     bullet: {
       type: BulletType
-      speed: 8
+      speed: 24
       lifetime: 1
       damage: 100
       hitEffect: {
@@ -34,11 +34,13 @@ weapons: [{
       }
     shootEffect:{
         type: ParticleEffect
-        length: 10
+        length: 24
+        sizeFrom: 6
         cone: 10
         lifetime: 20
         region: stupidustry-azpanogen
         spin: 3
+        interp: pow5Out
           }
 }
 }
