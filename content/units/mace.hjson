@@ -17,6 +17,8 @@ weapons: [
       recoil: -50
       length: 100
       hitSize: 10
+      damage: 640
+      pierceDamageFactor: 10000
       pierceEffect: none
       hitEffect: {
         type: SoundEffect
