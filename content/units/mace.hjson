@@ -1,0 +1,31 @@
+speed: 1
+health: 3000
+armor: -20
+details: throws itself
+weapons: [
+  {
+    name: flamethrower
+    top: false
+    shootSound: bell
+    shootY: 2
+    reload: 17
+    recoil: 1
+    ejectEffect: none
+    bullet: {
+      type: RailBulletType
+      shootEffect: explosion
+      recoil: -50
+      length: 100
+      hitSize: 10
+      pierceEffect: none
+      hitEffect: {
+        type: SoundEffect
+        effect: massiveExplosion
+        sound: bell
+        minVolume: 4
+        maxVolume: 12
+          }
+      pointEffect: trailFade
+        }
+}
+]
