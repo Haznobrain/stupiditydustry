@@ -3,6 +3,8 @@ health: 3000
 armor: -20
 details: throws itself
 hitSize: 10
+targetable: true
+hittable: true
 weapons: [
   {
     name: flamethrower
