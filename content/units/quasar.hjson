@@ -35,8 +35,46 @@ weapons: [
           colors: [98ffa955, 98ffa9, ffffff]
           lightningSpacing: 20
           lightningLength: 3
-          lightningColor: 98ffa9
+          lightningType:{
+          type: LaserBulletType
+          damage: 300
+          sideAngle: 45
+          sideWidth: 1
+          sideLength: 70
+          healPercent: 10
+          collidesTeam: true
+          length: 135
+          colors: [98ffa955, 98ffa9, ffffff]
+          lightningSpacing: 20
+          lightningLength: 3
+          lightningType: {
+          type: LaserBulletType
+          damage: 300
+          sideAngle: 45
+          sideWidth: 1
+          sideLength: 70
+          healPercent: 10
+          collidesTeam: true
+          length: 135
+          colors: [98ffa955, 98ffa9, ffffff]
+          lightningSpacing: 20
+          lightningLength: 3
+          lightningType: {
+          type: LaserBulletType
+          damage: 300
+          sideAngle: 45
+          sideWidth: 1
+          sideLength: 70
+          healPercent: 10
+          collidesTeam: true
+          length: 135
+          colors: [98ffa955, 98ffa9, ffffff]
+          lightningSpacing: 20
+          lightningLength: 3
+            }
+            }
+            }
+          }
         }
   }
-}
   ]
