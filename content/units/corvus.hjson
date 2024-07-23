@@ -52,6 +52,7 @@ rotateSpeed: 3.3
 haloRotateSpeed: 3.3
 haloRadius: 33
 color: 98ffa9
+layer: 110
 }
 {
 type: HoverPart
@@ -108,6 +109,7 @@ y: -10
 radius: 3
 sides: 4
 hollow: false
+rotation: 45
 }
     {
 type: ShapePart
@@ -116,6 +118,7 @@ y: -6
 radius: 3
 sides: 4
 hollow: false
+rotation: 45
 }
 {
 type: ShapePart
@@ -124,6 +127,7 @@ y: -4
 radius: 3
 sides: 4
 hollow: false
+rotation: 45
 }
 {
 type: ShapePart
@@ -132,6 +136,7 @@ y: -2
 radius: 3
 sides: 4
 hollow: false
+rotation: 45
 }
 {
 type: ShapePart
@@ -140,6 +145,7 @@ y: -0
 radius: 3
 sides: 4
 hollow: false
+rotation: 45
 }
 {
 type: ShapePart
@@ -148,6 +154,7 @@ y: 2
 radius: 3
 sides: 4
 hollow: false
+rotation: 45
 }
 {
 type: ShapePart
@@ -156,6 +163,7 @@ y: 4
 radius: 3
 sides: 4
 hollow: false
+rotation: 45
 }
 {
 type: ShapePart
@@ -164,6 +172,7 @@ y: 6
 radius: 3
 sides: 4
 hollow: false
+rotation: 45
 }
 {
 type: ShapePart
@@ -172,6 +181,7 @@ y: 8
 radius: 3
 sides: 4
 hollow: false
+rotation: 45
 }
 {
 type: ShapePart
@@ -180,6 +190,7 @@ y: 10
 radius: 3
 sides: 4
 hollow: false
+rotation: 45
 }
 {
     type: ShapePart
@@ -191,9 +202,10 @@ hollow: false
 }
 {
     type: ShapePart
-    radius: 9
+    radius: 4.5
     y: -12.5
     color: ffffff
+    circle: true
 }
 {
     type: ShapePart
@@ -205,9 +217,10 @@ hollow: false
 }
 {
     type: ShapePart
-    radius: 9
+    radius: 4.5
     y: 12.5
     color: ffffff
+    circle: true
 }
 ]
     damage: 333
