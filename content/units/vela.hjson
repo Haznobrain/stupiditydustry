@@ -1,0 +1,49 @@
+armor: 300
+health: 1200
+weapons: [
+{
+name: omura-cannon
+mirror: false
+x: 0
+shake: 4
+shootY: 12
+y: 8
+shoot: {
+    shots: 2
+    shotDelay: 40
+      }
+shootSound: vine
+shootStatus: unmoving
+reload: 240
+shootStatusDuration: 40
+bullet: {
+  type: ContinuousLaserBulletType
+  speed: 2
+  damage: 70
+  length: 24
+  width: 12
+  hitEffect: hitMeltHeal
+  drawSize: 69
+  lifetime: 160
+  shake: 2
+  despawnEffect: smokeCloud
+  smokeEffect: none
+  shootEffect: shootHeal
+  incendChance: 1
+  incendSpread: 40
+  incendAmount: 6
+  healPercent: 3
+  collidesTeam: true
+  colors: [98ffa922, 98ffa966, 98ffa9, ffffff]
+  intervalBullets: 5
+  bulletInterval: 3
+  intervalBullet: {  
+    type: LightningBulletType
+    damage: 70
+    lightningLength: 10
+    lightningLengthRand: 20
+    lightningColor: 98ffa9
+    }
+}
+}
+  ]
