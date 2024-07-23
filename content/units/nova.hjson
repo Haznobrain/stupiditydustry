@@ -1,0 +1,31 @@
+details: "true to its name"
+armor: 19
+weapons: [
+  {
+  name: heal-weapon
+  reload: 60
+  shootCone: 180
+  top: false
+  shootY: 2
+  reload: 24
+  x: 4.5
+  ejectEffect: none
+  recoil: 2
+  shootSound: vine
+  bullet: {
+    type: ExplosionBulletType
+    damage: 0
+    splashDamageRadius: 140
+    splashDamage: 9001
+    shootEffect: none
+    smokeEffect: none
+    hitEffect: {
+    type: WrapEffect
+    effect: dynamicSpikes
+    size: 140
+    color: 91ffa5
+      }
+    despawnEffect: none
+      }
+  }
+  ]
