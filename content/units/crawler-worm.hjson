@@ -1,8 +1,14 @@
 type: crawl
+name: Crawler Worm
+description: I cAn fEEl ThEm wRIGGlIng.
 health: 250
 speed: 0.6
 hitSize: 8
 segments: 10
+drawBody: false
+omniMovement: false
+rotateSpeed: 3
+template: NeoplasmUnitType
 segmentMag: 2
 segmentScl: 6
 segmentPhase: 4
