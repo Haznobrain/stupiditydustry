@@ -13,6 +13,7 @@ weapons: [
   ejectEffect: none
   recoil: 2
   shootSound: vine
+  shootOnDeath: true
   bullet: {
     type: ExplosionBulletType
     damage: 0
@@ -25,6 +26,7 @@ weapons: [
     type: WrapEffect
     effect: dynamicSpikes
     color: 91ffa5ff
+    rot: 140
       }
     despawnEffect: none
       }
