@@ -101,6 +101,7 @@ bullet: {
   type: ContinuousBulletType
   length: 33
   hitSize: 3
+  continuous: false
   parts: [
 {
 type: ShapePart
