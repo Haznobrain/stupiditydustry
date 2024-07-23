@@ -18,7 +18,6 @@ reload: 240
 shootStatusDuration: 40
 bullet: {
   type: ContinuousLaserBulletType
-  continuous: false
   speed: 2
   damage: 70
   length: 24
