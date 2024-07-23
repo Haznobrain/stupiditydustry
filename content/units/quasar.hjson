@@ -23,7 +23,7 @@ weapons: [
     length: 135
     colors: [98ffa955, 98ffa9, ffffff]
     lightningInterval: 20
-    lightningAngle: 90
+    lightningLength: 3
     lightningType: {
           type: LaserBulletType
           damage: 45
@@ -36,7 +36,7 @@ weapons: [
           length: 135
           colors: [98ffa955, 98ffa9, ffffff]
           lightningSpacing: 20
-          lightningAngle: 90
+          lightningLength: 3
           lightningType: {
                   type: LaserBulletType
                   damage: 45
@@ -63,7 +63,6 @@ weapons: [
           colors: [98ffa955, 98ffa9, ffffff]
           lightningSpacing: 20
           lightningLength: 3
-          lightningAngle: 90
 }
                     }
     }
