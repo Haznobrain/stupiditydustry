@@ -229,6 +229,7 @@ rotation: 45
     damageInterval: 3
     shake: 3
     lifetime: 333
+    rangeOverride: 999
 }
 }
   ]
