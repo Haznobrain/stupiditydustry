@@ -21,7 +21,7 @@ weapons: [
     collidesTeam: true
     length: 135
     colors: [98ffa955, 98ffa9, ffffff]
-    lightningInterval: 20
+    lightningSpacing: 20
     lightningLength: 3
     lightningType: {
           type: LaserBulletType
