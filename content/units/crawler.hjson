@@ -1,0 +1,9 @@
+type: crawl
+segments: 10
+segmentMag: 2
+segmentScl: 6
+segmentPhase: 4
+segmentRotSpeed: 1.5
+segmentMaxRot: 45
+crushDamage: 50
+details: ""crawl"-grandma"
