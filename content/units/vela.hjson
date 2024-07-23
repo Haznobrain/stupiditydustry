@@ -37,6 +37,7 @@ bullet: {
   colors: [98ffa922, 98ffa966, 98ffa9, ffffff]
   intervalBullets: 5
   bulletInterval: 3
+  rangeOverride: 320
   intervalBullet: {  
     type: LightningBulletType
     damage: 70
