@@ -18,6 +18,7 @@ weapons: [
     damage: 0
     splashDamageRadius: 140
     splashDamage: 9001
+    despawnHit: true
     shootEffect: none
     smokeEffect: none
     hitEffect: {
