@@ -1,0 +1,217 @@
+details: "do not be afraid"
+health: 333333
+armor: 333
+stepShake: 3.3
+rotateSpeed: 3.3
+drownTimeMultiplier: 33
+legCount: 33
+legLength: 33
+legBaseOffset: 3
+legMoveSpace: 3.3
+legForwardScl: 0.33
+hovering: true
+shadowElevation: 3.3
+groundLayer: 75
+speed: 0.33
+drawShields: false
+parts: [
+{
+type: ShapePart
+radius: 3.3
+color: 98ffa9
+rotateSpeed: 3.3
+circle: true
+hollow: true
+}
+  {
+type: ShapePart
+radius: 3.3
+color: 98ffa9
+rotateSpeed: 3.3
+sides: 3
+hollow: true
+}
+  {
+type: ShapePart
+radius: 3.3
+color: 98ffa9
+rotateSpeed: 3.3
+sides: 33
+hollow: true
+}
+{
+type: HaloPart
+shapes: 33
+tri: true
+sides: 33
+radius: 3.3
+rotateSpeed: 3.3
+haloRotateSpeed: 3.3
+haloRadius: 33
+color: 98ffa9
+}
+{
+type: HoverPart
+y: -12
+radius: 33
+color: 98ffa9
+phase: 333
+stroke: 33
+minStroke: 0.33
+layerOffset: -0.001
+}
+{
+type: FlarePart
+color1: 98ffa9
+color2: ffffff
+sides: 3
+radius: 33
+stroke: 3
+inerScl: 0.3
+rotateSpeed: 3.3
+}
+]
+weapons: [
+{
+name: corvus-weapon
+shootSound: fart
+top: false
+soundPitchMin: 0.33
+mirror: false
+shake: 3.3
+shootY: 5
+y: 0
+x: 0
+reload: 333
+recoil: 0
+cooldownTime: 333
+shootStatusDuration: 33
+shootStatus: slow
+parentizeEffects: true
+inaccuracy: 33
+shoot: {
+  shots: 33
+  shotDelay: 3
+    }
+bullet: {
+  type: ContinuousBulletType
+  length: 33
+  hitSize: 3
+  parts: [
+{
+type: ShapePart
+color: 98ffa9
+y: -10
+radius: 3
+sides: 4
+hollow: false
+}
+    {
+type: ShapePart
+color: 98ffa9
+y: -6
+radius: 3
+sides: 4
+hollow: false
+}
+{
+type: ShapePart
+color: 98ffa9
+y: -4
+radius: 3
+sides: 4
+hollow: false
+}
+{
+type: ShapePart
+color: 98ffa9
+y: -2
+radius: 3
+sides: 4
+hollow: false
+}
+{
+type: ShapePart
+color: 98ffa9
+y: -0
+radius: 3
+sides: 4
+hollow: false
+}
+{
+type: ShapePart
+color: 98ffa9
+y: 2
+radius: 3
+sides: 4
+hollow: false
+}
+{
+type: ShapePart
+color: 98ffa9
+y: 4
+radius: 3
+sides: 4
+hollow: false
+}
+{
+type: ShapePart
+color: 98ffa9
+y: 6
+radius: 3
+sides: 4
+hollow: false
+}
+{
+type: ShapePart
+color: 98ffa9
+y: 8
+radius: 3
+sides: 4
+hollow: false
+}
+{
+type: ShapePart
+color: 98ffa9
+y: 10
+radius: 3
+sides: 4
+hollow: false
+}
+{
+    type: ShapePart
+    radius: 9
+    y: -12.5
+    color: 98ffa9
+    circle: true
+    hollow: false
+}
+{
+    type: ShapePart
+    radius: 9
+    y: -12.5
+    color: ffffff
+}
+{
+    type: ShapePart
+    radius: 9
+    y: 12.5
+    color: 98ffa9
+    circle: true
+    hollow: false
+}
+{
+    type: ShapePart
+    radius: 9
+    y: 12.5
+    color: ffffff
+}
+]
+    damage: 333
+    largeHit: true
+    speed: 3
+    damageInterval: 3
+    shake: 3
+}
+}
+  ]
