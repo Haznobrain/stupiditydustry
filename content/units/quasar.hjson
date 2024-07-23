@@ -9,14 +9,13 @@ weapons: [
   shake: 5
   shootY: 4
   x: 6.5
-  reload: 55
   recoil: 4
   bullet: {
     type: LaserBulletType
     damage: 45
     recoil: 1
     sideAngle: 45
-    sideWith: 1
+    sideWidth: 1
     sideLength: 70
     healPercent: 10
     collidesTeam: true
@@ -29,7 +28,7 @@ weapons: [
           damage: 45
           recoil: 1
           sideAngle: 45
-          sideWith: 1
+          sideWidth: 1
           sideLength: 70
           healPercent: 10
           collidesTeam: true
@@ -42,7 +41,7 @@ weapons: [
                   damage: 45
                   recoil: 1
                   sideAngle: 45
-                  sideWith: 1
+                  sideWidth: 1
                   sideLength: 70
                   healPercent: 10
                   collidesTeam: true
@@ -55,7 +54,7 @@ weapons: [
           damage: 45
           recoil: 1
           sideAngle: 45
-          sideWith: 1
+          sideWidth: 1
           sideLength: 70
           healPercent: 10
           collidesTeam: true
