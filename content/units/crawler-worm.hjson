@@ -12,6 +12,6 @@ template: NeoplasmUnitType
 segmentMag: 24
 segmentScl: 6
 segmentPhase: 4
-segmentRotSpeed: 1.5
+segmentRotSpeed: 4
 segmentMaxRot: 45
 crushDamage: 50
