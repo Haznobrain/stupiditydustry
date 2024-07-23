@@ -1,0 +1,45 @@
+armor: 30
+weapons: [
+{
+name: heal-shotgun-weapon
+reload: 120
+range: 400
+top: false
+x: 5
+shake: 5
+y: 0.5
+inaccuracy: 2
+shoot: {
+  shots: 6
+  shotDelay: 3
+    }
+ shootSound: vine
+ recoil: 2.5
+  bullet: {
+    type: LightningBulletType
+    lightningColor: 91ffa5
+    hitColor: 91ffa5
+    lightningLength: 400
+    lightningLengthRand: 40
+    shootEffect: shootHeal
+    healPercent: 2
+    damage: 3
+    lifetime: 24
+    hitEffect: hitLancer
+    lightning: 2
+    lightningType: {
+        type: LightningBulletType
+        lightningLengthRand: 10
+        lightningLength: 100
+        damage: 4
+        lightningColor: 91ffa5
+        lifetime: 24
+        hitEffect: hitLancer
+        despawnEffect: none
+        status: electrified
+        statusDuration: 5
+        hittable: false
+        healPercent: 1.6
+        collidesTeam: true
+          }
+ }
