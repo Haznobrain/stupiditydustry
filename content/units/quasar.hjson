@@ -16,7 +16,7 @@ weapons: [
     damage: 45
     recoil: 1
     sideAngle: 45
-    wideWith: 1
+    sideWith: 1
     sideLength: 70
     healPercent: 10
     collidesTeam: true
@@ -29,7 +29,7 @@ weapons: [
           damage: 45
           recoil: 1
           sideAngle: 45
-          wideWith: 1
+          sideWith: 1
           sideLength: 70
           healPercent: 10
           collidesTeam: true
@@ -42,7 +42,7 @@ weapons: [
                   damage: 45
                   recoil: 1
                   sideAngle: 45
-                  wideWith: 1
+                  sideWith: 1
                   sideLength: 70
                   healPercent: 10
                   collidesTeam: true
@@ -55,7 +55,7 @@ weapons: [
           damage: 45
           recoil: 1
           sideAngle: 45
-          wideWith: 1
+          sideWith: 1
           sideLength: 70
           healPercent: 10
           collidesTeam: true
