@@ -9,8 +9,8 @@ drawBody: false
 omniMovement: false
 rotateSpeed: 3
 template: NeoplasmUnitType
-segmentMag: 10
-segmentScl: 3
+segmentMag: 12
+segmentScl: 6
 segmentPhase: 4
 segmentRotSpeed: 1.5
 segmentMaxRot: 45
