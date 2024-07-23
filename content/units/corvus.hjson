@@ -8,6 +8,7 @@ legCount: 33
 legLength: 33
 legBaseOffset: 3
 legMoveSpace: 3.3
+legGroupSize: 3
 legForwardScl: 0.33
 hovering: true
 shadowElevation: 3.3
@@ -22,6 +23,7 @@ color: 98ffa9
 rotateSpeed: 3.3
 circle: true
 hollow: true
+layer: 110
 }
   {
 type: ShapePart
@@ -30,6 +32,7 @@ color: 98ffa9
 rotateSpeed: 3.3
 sides: 3
 hollow: true
+layer: 110
 }
   {
 type: ShapePart
@@ -38,11 +41,11 @@ color: 98ffa9
 rotateSpeed: 3.3
 sides: 33
 hollow: true
+layer: 110
 }
 {
 type: HaloPart
 shapes: 33
-tri: true
 sides: 33
 radius: 3.3
 rotateSpeed: 3.3
@@ -212,6 +215,7 @@ hollow: false
     speed: 3
     damageInterval: 3
     shake: 3
+    lifetime: 333
 }
 }
   ]
