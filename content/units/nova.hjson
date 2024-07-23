@@ -1,5 +1,6 @@
 details: "true to its name"
 armor: 19
+deathSound: none
 weapons: [
   {
   name: heal-weapon
@@ -22,8 +23,7 @@ weapons: [
     hitEffect: {
     type: WrapEffect
     effect: dynamicSpikes
-    size: 140
-    color: 91ffa5
+    color: 91ffa5ff
       }
     despawnEffect: none
       }
