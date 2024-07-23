@@ -1,0 +1,74 @@
+speed: 0.2
+armor: 90
+weapons: [
+  {
+  name: beam-weapon
+  shootSound: wet
+  reload: 169
+  top: false
+  shake: 5
+  shootY: 4
+  x: 6.5
+  reload: 55
+  recoil: 4
+  bullet: {
+    type: LaserBulletType
+    damage: 45
+    recoil: 1
+    sideAngle: 45
+    wideWith: 1
+    sideLength: 70
+    healPercent: 10
+    collidesTeam: true
+    length: 135
+    colors: [98ffa955, 98ffa9, ffffff]
+    lightningInterval: 20
+    lightningLength: 3
+    lightningAngle: 90
+    lightningType: {
+          type: LaserBulletType
+          damage: 45
+          recoil: 1
+          sideAngle: 45
+          wideWith: 1
+          sideLength: 70
+          healPercent: 10
+          collidesTeam: true
+          length: 135
+          colors: [98ffa955, 98ffa9, ffffff]
+          lightningInterval: 20
+          lightningLength: 3
+          lightningAngle: 90
+          lightningType: {
+                  type: LaserBulletType
+                  damage: 45
+                  recoil: 1
+                  sideAngle: 45
+                  wideWith: 1
+                  sideLength: 70
+                  healPercent: 10
+                  collidesTeam: true
+                  length: 135
+                  colors: [98ffa955, 98ffa9, ffffff]
+                  lightningInterval: 20
+                  lightningLength: 3
+                  lightningType:{
+          type: LaserBulletType
+          damage: 45
+          recoil: 1
+          sideAngle: 45
+          wideWith: 1
+          sideLength: 70
+          healPercent: 10
+          collidesTeam: true
+          length: 135
+          colors: [98ffa955, 98ffa9, ffffff]
+          lightningInterval: 20
+          lightningLength: 3
+          lightningAngle: 90
+}
+                    }
+    }
+  }
+  }
+  ]
