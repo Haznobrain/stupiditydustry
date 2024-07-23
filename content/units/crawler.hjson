@@ -1,0 +1,9 @@
+details: "crawl-grandma"
+armor: 14
+abilities: [
+{
+type: SpawnDeathAbility
+unit: crawler-worm
+amount: 3
+}
+  ]
