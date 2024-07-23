@@ -14,7 +14,7 @@ bullet: {
   parts: [
     {
     type: RegionPart
-    regions: bullet
+    region: bullet
     color: fff8e8
     growY: 0.5
     progress: lifetime
@@ -23,7 +23,7 @@ bullet: {
       }
         {
     type: RegionPart
-    regions: bullet-back
+    region: bullet-back
     color: f9c27a
     growY: 0.5
     progress: lifetime
