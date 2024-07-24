@@ -174,8 +174,6 @@ bullet: {
   trailInterval: 7
   trailParam: 1
   trailRotation: true
-  trailSinMag: 7
-  trailSinScl: 7
   homingPower: 0.7
   homingRange: 77
   homingDelay: 7
