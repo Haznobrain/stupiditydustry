@@ -89,6 +89,7 @@ shake: 7
 rotateSpeed: 7
 ejectEffect: casing1
 shoot: {
+  type: ShootAlternate
   barrels: 7
   shots: 7
   spread: 0.7
