@@ -104,7 +104,6 @@ bullet: {
   damage: 77
   splashDamage: 77
   splashDamageRadius: 77
-  hitEffect: sapExplosion
   frontColor: bf92f9
   backColor: 6d56bf
   width: 7.7
@@ -131,7 +130,7 @@ bullet: {
   despawnSound: dullExplosion
   inaccuracy: 0.07
   ammoMultiplier: 7
-  recoil: 0.00007
+  recoil: 0.07
   knockback: 7
   status: sapped
   statusDuration: 777
@@ -139,7 +138,8 @@ bullet: {
   hitShake: 0.7
   fragBullet: {
     type: ShrapnelBulletType
-    colorTo: bf92f9
+    toColor: bf92f9
+    width: 7
     lifetime: 15
     damage: 77
     length: 77
@@ -221,7 +221,17 @@ color: bf92f9
 radius: 20
 x: 6
 y: -38.5
-mirror: true
+hollow: false
+radiusTo: 0
+progress: lifetime
+}
+{
+type: ShapePart
+circle: true
+color: bf92f9
+radius: 20
+x: -6
+y: -38.5
 hollow: false
 radiusTo: 0
 progress: lifetime
