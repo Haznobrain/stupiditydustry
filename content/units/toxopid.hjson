@@ -115,7 +115,6 @@ bullet: {
   lifetime: 77
   speed: 7
   hitSize: 7
-  drawSize: 77
   drag: 0.007
   pierce: true
   pierceBuilding: true
@@ -218,8 +217,10 @@ y: -38.5
 hollow: false
 radiusTo: 0
 progress: life
+layer: 110
 }
 {
+layer: 110
 type: ShapePart
 circle: true
 color: bf92f9
@@ -231,6 +232,7 @@ radiusTo: 0
 progress: life
 }
 {
+layer: 110
 type: ShapePart
 radius: 12
 circle: true
@@ -241,6 +243,7 @@ progress: life
 hollow: false
 }
 {
+layer: 110
 type: ShapePart
 radius: 12
 rotation: 45
@@ -251,6 +254,7 @@ progress: life
 y: -17.5
 }
 {
+layer: 110
 type: ShapePart
 radius: 12
 rotation: 45
@@ -261,6 +265,7 @@ progress: life
 y: -6.5
 }
 {
+layer: 110
 type: ShapePart
 radius: 12
 rotation: 45
@@ -271,6 +276,7 @@ progress: life
 y: 5.5
 }
 {
+layer: 110
 type: ShapePart
 radius: 12
 rotation: 45
@@ -281,6 +287,7 @@ progress: life
 y: 16.5
 }
 {
+layer: 110
 type: ShapePart
 radius: 12
 rotation: 45
@@ -291,6 +298,7 @@ progress: life
 y: 27.5
 }
 {
+layer: 110
 type: ShapePart
 radius: 12
 rotation: 45
