@@ -1,0 +1,231 @@
+speed: 0.55
+health: 555
+armor: -55
+rotateSpeed: 5
+legCount: 5
+legMoveSpace: 5
+legLength: 5.5
+legExtension: -55
+legBaseOffset: 5.5
+stepShake: 0.5
+legLengthScl: 0.95
+rippleScale: 5
+legSpeed: 0.5
+legSplashDamage: 0.55
+legSplashRange: 5
+drownTimeMultiplier: 5
+hovering: true
+shadowElevation: 0.55
+details: "crawl, slither, writher, today, we rise. -grandma"
+weapons: [
+  {
+  name: heal-weapon
+  reload: 5
+  x: 4
+  y: 8
+  rotate: true
+  shootSound: vine
+  bullet: {
+    type: ArtilleryBulletType
+    speed: 5
+    frontColor: bf92f9
+    backColor: 6d56bf
+    damage: 0
+    splashDamage: 55
+    lifetime: 55
+    hitEffect: sapExplosion
+    width: 5
+    height: 5
+    collidesTiles: true
+    splashDamageRadius: 55
+    lightningColor: bf92f9
+    lightning: 5
+    lightningLength: 5
+    smokeEffect: shootBigSmoke2
+    shake: 2
+    status: sapped
+    statusDuration: 555
+    bulletInterval: 5
+    intervalBullets: 5
+    intervalBullet: {
+        type: SapBulletType
+        color: bf92f9
+        length: 55
+        lifetime: 55
+        damage: 55
+        width: 0.55
+        sapStrength: 0.5
+        hitColor: bf92f9
+        spawnBullets: [
+{
+  type: BulletType
+  lifetime: 0
+  hitEffect: none
+  despawnEffect: none
+  instantDisappear: true
+  despawnSound: fart
+}
+          ]
+}
+          }
+}
+{
+  name: flamethrower
+      reload: 5
+  x: 9
+  y: 6
+  rotate: true
+  shootSound: vine
+  bullet: {
+    type: ArtilleryBulletType
+    speed: 5
+    frontColor: bf92f9
+    backColor: 6d56bf
+    damage: 0
+    splashDamage: 55
+    lifetime: 55
+    hitEffect: sapExplosion
+    width: 5
+    height: 5
+    collidesTiles: true
+    splashDamageRadius: 55
+    lightningColor: bf92f9
+    lightning: 5
+    lightningLength: 5
+    smokeEffect: shootBigSmoke2
+    shake: 2
+    status: sapped
+    statusDuration: 555
+    bulletInterval: 5
+    intervalBullets: 5
+    intervalBullet: {
+        type: SapBulletType
+        color: bf92f9
+        length: 55
+        lifetime: 55
+        damage: 55
+        width: 0.55
+        sapStrength: 0.5
+        hitColor: bf92f9
+        spawnBullets: [
+{
+  type: BulletType
+  lifetime: 0
+  hitEffect: none
+  despawnEffect: none
+  instantDisappear: true
+  despawnSound: fart
+}
+          ]
+}
+          }
+}
+{
+  name: heal-shotgun-weapon
+      reload: 5
+  x: 14
+  y: 0
+  rotate: true
+  shootSound: vine
+  bullet: {
+    type: ArtilleryBulletType
+    speed: 5
+    frontColor: bf92f9
+    backColor: 6d56bf
+    damage: 0
+    splashDamage: 55
+    lifetime: 55
+    hitEffect: sapExplosion
+    width: 5
+    height: 5
+    collidesTiles: true
+    splashDamageRadius: 55
+    lightningColor: bf92f9
+    lightning: 5
+    lightningLength: 5
+    smokeEffect: shootBigSmoke2
+    shake: 2
+    status: sapped
+    statusDuration: 555
+    bulletInterval: 5
+    intervalBullets: 5
+    intervalBullet: {
+        type: SapBulletType
+        color: bf92f9
+        length: 55
+        lifetime: 55
+        damage: 55
+        width: 0.55
+        sapStrength: 0.5
+        hitColor: bf92f9
+        spawnBullets: [
+{
+  type: BulletType
+  lifetime: 0
+  hitEffect: none
+  despawnEffect: none
+  instantDisappear: true
+  despawnSound: fart
+}
+          ]
+}
+          }
+}
+{
+  name: reign-weapon
+  shootSound: wet
+  reload: 55
+  y: -7
+  x: 9
+  shootY: 11
+  shake: 5
+  rotateSpeed: 0.5
+  ejectEffect: casing3
+  rotate: true
+  shadow: 5
+  recoil: 5
+    bullet: {
+    type: ArtilleryBulletType
+    speed: 55
+    frontColor: bf92f9
+    backColor: 6d56bf
+    damage: 0
+    splashDamage: 555
+    lifetime: 5.5
+    hitEffect: sapExplosion
+    width: 55
+    height: 55
+    collidesTiles: true
+    splashDamageRadius: 55
+    lightningColor: bf92f9
+    lightning: 55
+    lightningLength: 55
+    smokeEffect: shootBigSmoke2
+    shake: 5
+    status: sapped
+    statusDuration: 555
+    bulletInterval: 0.5
+    intervalBullets: 5
+    intervalBullet: {
+        type: SapBulletType
+        color: bf92f9
+        length: 55
+        lifetime: 55
+        damage: 555
+        width: 0.55
+        sapStrength: 5
+        hitColor: bf92f9
+        spawnBullets: [
+{
+  type: BulletType
+  lifetime: 0
+  hitEffect: none
+  despawnEffect: none
+  instantDisappear: true
+  despawnSound: fart
+}
+          ]
+}
+}
+}
+]
