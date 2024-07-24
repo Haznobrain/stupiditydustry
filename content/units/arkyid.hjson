@@ -214,6 +214,7 @@ weapons: [
     statusDuration: 555
     bulletInterval: 0.5
     intervalBullets: 5
+    lightningDamage: 55
     intervalBullet: {
         type: SapBulletType
         color: bf92f9
