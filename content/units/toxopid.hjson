@@ -213,7 +213,7 @@ circle: true
 color: bf92f9
 radius: 20
 x: 6
-y: -38.5
+y: 0
 hollow: false
 radiusTo: 0
 progress: life
@@ -226,7 +226,7 @@ circle: true
 color: bf92f9
 radius: 20
 x: -6
-y: -38.5
+y: 0
 hollow: false
 radiusTo: 0
 progress: life
@@ -236,7 +236,7 @@ layer: 110
 type: ShapePart
 radius: 12
 circle: true
-y: -28.5
+y: 11.5
 color: bf92f9
 radiusTo: 0
 progress: life
@@ -251,7 +251,8 @@ sides: 4
 hollow: false
 radiusTo: 0
 progress: life
-y: -17.5
+color: bf92f9
+y: 23
 }
 {
 layer: 110
@@ -262,7 +263,8 @@ sides: 4
 hollow: false
 radiusTo: 0
 progress: life
-y: -6.5
+y: 35.5
+color: bf92f9
 }
 {
 layer: 110
@@ -273,7 +275,8 @@ sides: 4
 hollow: false
 radiusTo: 0
 progress: life
-y: 5.5
+y: 48
+color: bf92f9
 }
 {
 layer: 110
@@ -284,7 +287,8 @@ sides: 4
 hollow: false
 radiusTo: 0
 progress: life
-y: 16.5
+y: 50.5
+color: bf92f9
 }
 {
 layer: 110
@@ -295,7 +299,8 @@ sides: 4
 hollow: false
 radiusTo: 0
 progress: life
-y: 27.5
+y: 62.5
+color: bf92f9
 }
 {
 layer: 110
@@ -306,7 +311,8 @@ circle: true
 hollow: false
 radiusTo: 0
 progress: life
-y: 38.5
+y: 75
+color: bf92f9
 }
 ]
     damage: 77
