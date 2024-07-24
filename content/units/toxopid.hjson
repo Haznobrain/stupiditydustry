@@ -1,0 +1,305 @@
+details: "throb- grandma"
+health: 777777
+armor: -777
+speed: 0.7
+rotateSpeed: 7.7
+drownTimeMultiplier: 7
+legCount: 77
+legMoveSpace: 0.7
+legPairOffset: 7
+legLength: 777
+legExtension: -77
+legBaseOffset: 7
+legLengthScl: 0.77
+rippleScale: 7
+legSpeed: 0.77
+legSplashDamage: 777
+legSplashRange: 77
+hovering: true
+shadowElevation: 7
+groundLayer: 77
+parts: [
+{
+type: ShapePart
+radius: 7.7
+color: 665c9f
+rotateSpeed: 7.7
+circle: true
+hollow: true
+layer: 110
+}
+  {
+type: ShapePart
+radius: 7.7
+color: 665c9f
+rotateSpeed: 7.7
+sides: 7
+hollow: true
+layer: 110
+}
+  {
+type: ShapePart
+radius: 7.7
+color: 665c9f
+rotateSpeed: 7.7
+sides: 77
+hollow: true
+layer: 110
+}
+{
+type: HaloPart
+shapes: 77
+sides: 77
+radius: 7.7
+rotateSpeed: 7.7
+haloRotateSpeed: 7.7
+haloRadius: 77
+color: 665c9f
+layer: 110
+}
+{
+type: HoverPart
+y: -12
+radius: 7
+color: 665c9f
+phase: 77
+stroke: 7
+minStroke: 0.77
+layerOffset: -0.001
+}
+{
+type: FlarePart
+color1: 665c9f
+color2: ffffff
+sides: 7
+radius: 77
+stroke: 7
+inerScl: 0.7
+rotateSpeed: 7.7
+}
+]
+weapons: [
+{
+name: large-purple-mount
+y: -5
+x: 11
+shootY: 7
+reload: 7
+shake: 7
+rotateSpeed: 7
+ejectEffect: casing1
+shoot: {
+  barrels: 7
+  shots: 7
+  spread: 0.7
+  shotDelay: 0.7
+    }
+shootSound: vine
+rotate: true
+shadow: 7
+recoil: 7
+bullet: {
+  type: MissileBulletType
+  damage: 77
+  splashDamage: 77
+  splashDamageRadius: 77
+  hitEffect: sapExplosion
+  frontColor: bf92f9
+  backColor: 6d56bf
+  width: 7.7
+  height: 7.7
+  shrinkX: 0
+  shrinkY: 0
+  spin: 7
+  rotationOffset: 7
+  sprite: missile-large
+  lifetime: 77
+  speed: 7
+  hitSize: 7
+  drawSize: 77
+  drag: 0.007
+  pierce: true
+  pierceBuilding: true
+  pierceCap: 7
+  hitEffect: sapExplosion
+  despawnEffect: none
+  despawnHit: true
+  shootEffect: shootBigColor
+  smokeEffect: shootBigSmoke2
+  hitSound: dullExplosion
+  despawnSound: dullExplosion
+  inaccuracy: 0.07
+  ammoMultiplier: 7
+  recoil: 0.00007
+  knockback: 7
+  status: sapped
+  statusDuration: 777
+  keepVelocity: false
+  hitShake: 0.7
+  fragBullet: {
+    type: ShrapnelBulletType
+    colorTo: bf92f9
+    lifetime: 15
+    damage: 77
+    length: 77
+      }
+  delayFrags: true
+  fragRandomSpread: 7
+  fragSpread: 77
+  fragAngle: 77
+  fragBullets: 7
+  fragVelocityMin: 0.7
+  fragOffsetMax: 1
+  pierceFragCap: 7
+  bulletInterval: 7
+  intervalBullets: 7
+  intervalRandomSpread: 7
+  intervalSpread: 77
+  intervalAngle: 7
+  intervalBullet: {
+    type: BasicBulletType
+    trailLength: 7
+    trailParam: 1
+    trailWidth: 7
+    height: 7
+    width: 7
+    damage: 77
+    lifetime: 77
+    speed: 7
+    trailColor: bf92f9
+    frontColor: ffffff
+    backColor: bf92f9
+    }
+  hitColor: bf92f9
+  trailColor: bf92f9
+  trailLength: 77
+  trailWidth: 7
+  trailInterval: 7
+  trailParam: 1
+  trailRotation: true
+  trailSinMag: 7
+  trailSinScl: 7
+  homingPower: 0.7
+  homingRange: 77
+  homingDelay: 7
+  lightning: 7
+  lightningLength: 7
+  lightningLengthRand: 7
+  lightningDamage: 77
+  lightningColor: bf92f9
+  lightningCone: 77
+  weaveScale: 7
+  weaveMag: 7
+}
+}
+{
+name: toxopid-cannon
+reload: 77
+y: -14
+x: 0
+shootY: 22
+reload: 77
+shake: 7
+rotateSpeed: 1
+ejectEffect: casing3
+rotationLimit: 77
+continuous: true
+alwaysContinuous: true
+shootSound: gay
+bullet: {
+  type: ContinuousBulletType
+  lifetime: 77
+  length: 77
+  //i am very mature
+  hitSize: 12
+  parts: [
+{
+type: ShapePart
+circle: true
+color: bf92f9
+radius: 20
+x: 6
+y: -38.5
+mirror: true
+hollow: false
+radiusTo: 0
+progress: lifetime
+}
+{
+type: ShapePart
+radius: 12
+circle: true
+y: -28.5
+color: bf92f9
+radiusTo: 0
+progress: lifetime
+hollow: false
+}
+{
+type: ShapePart
+radius: 12
+rotation: 45
+sides: 4
+hollow: false
+radiusTo: 0
+progress: lifetime
+y: -17.5
+}
+{
+type: ShapePart
+radius: 12
+rotation: 45
+sides: 4
+hollow: false
+radiusTo: 0
+progress: lifetime
+y: -6.5
+}
+{
+type: ShapePart
+radius: 12
+rotation: 45
+sides: 4
+hollow: false
+radiusTo: 0
+progress: lifetime
+y: 5.5
+}
+{
+type: ShapePart
+radius: 12
+rotation: 45
+sides: 4
+hollow: false
+radiusTo: 0
+progress: lifetime
+y: 16.5
+}
+{
+type: ShapePart
+radius: 12
+rotation: 45
+sides: 4
+hollow: false
+radiusTo: 0
+progress: lifetime
+y: 27.5
+}
+{
+type: ShapePart
+radius: 12
+rotation: 45
+circle: true
+hollow: false
+radiusTo: 0
+progress: lifetime
+y: 38.5
+}
+]
+    damage: 77
+    damageInterval: 0.7
+    shake: 7
+    largeHit: true
+}
+}
+  ]
