@@ -16,7 +16,7 @@ legSplashRange: 5
 drownTimeMultiplier: 5
 hovering: true
 shadowElevation: 0.55
-details: "crawl, slither, writher, today, we rise. -grandma"
+details: "crawl, slither, writhe, today, we rise. -grandma"
 weapons: [
   {
   name: heal-weapon
