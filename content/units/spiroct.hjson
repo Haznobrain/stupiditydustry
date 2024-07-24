@@ -1,0 +1,51 @@
+details: "we are not satiated- grandma"
+armor: -20
+weapons: [
+  {
+  name: spiroct-weapon
+  shootY: 4
+  reload: 3
+  ejectEffect: none
+  shootSound: fart
+  recoil: 2
+  rotate: true
+  x: 8.5
+  y: -1.5
+  bullet: {
+    type: SapBulletType
+    sapStrength: 0.5
+    length: 90
+    damage: 25
+    shootEffect: shootSmall
+    hitColor: bf92f9
+    color: bf92f9
+    despawnEffect: none
+    width: 0.54
+    lifetime: 35
+    knockback: -1.24
+    recoil: -1.24
+      }
+}
+{
+  name: mount-purple-weapon
+  reload: 4
+  rotate: true
+  x: 4
+  y: 3
+  shootSound: sap
+  bullet: {
+    type: SapBulletType
+    sapStrength: 0.8
+    length: 60
+    damage: 20
+    shootEffect: shootSmall
+    hitColor: bf92f9
+    color: bf92f9
+    despawnEffect: none
+    width: 0.5
+    lifetime: 25
+    knockback: -1
+    recoil: -1
+      }
+}
+]
