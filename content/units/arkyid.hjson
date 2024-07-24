@@ -25,6 +25,8 @@ weapons: [
   y: 8
   rotate: true
   shootSound: vine
+  top: true
+  layerOffset: 1
   bullet: {
     type: ArtilleryBulletType
     speed: 5
@@ -72,6 +74,8 @@ weapons: [
 {
   name: flamethrower
       reload: 5
+  top: true
+  layerOffset: 1
   x: 9
   y: 6
   rotate: true
@@ -122,6 +126,8 @@ weapons: [
 }
 {
   name: heal-shotgun-weapon
+  top: true
+  layerOffset: 1
       reload: 5
   x: 14
   y: 0
@@ -178,6 +184,8 @@ weapons: [
   y: -7
   x: 9
   shootY: 11
+  top: true
+  layerOffset: 1
   shake: 5
   rotateSpeed: 0.5
   ejectEffect: casing3
