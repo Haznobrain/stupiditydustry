@@ -6,7 +6,6 @@ ammoTypes: {
     width: 10
     colors: [ff0000, ffffff, 000000, 000000]
     lifetime: 120
-    spin: 10
     layer: 111
     hitEffect: {
       type: MultiEffect
