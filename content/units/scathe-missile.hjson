@@ -18,12 +18,12 @@ targetAir: false
 fogRadius: 6
 health: 210
 hidden: true
+deathExplosionEffect: massiveExplosion
 weapons: [
 {
 shootCone: 360
 mirror: false
 reload: 1
-deathExplosionEffect: massiveExplosion
 shootOnDeath: true
 shake: 10
 bullet: {
