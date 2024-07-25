@@ -28,7 +28,7 @@ bullet: {
   lightningType: {
     type: LightningBulletType
     lightning: 2
-    lightningLength: 12
+    lightningLength: 123
     damage: 1
     lightningColor: ff9c5a
     lightningType: {
