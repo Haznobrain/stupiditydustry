@@ -3,7 +3,6 @@ weapons: [
 {
 name: heal-shotgun-weapon
 reload: 120
-range: 400
 top: false
 x: 5
 shake: 5
