@@ -9,7 +9,6 @@ weapons: [
   shootY: 0
   reload: 12
   shootCone: 180
-  ejectEffect: casing4Double
   inaccuracy: 12
   ignoreRotation: true
   shootSound: fart
