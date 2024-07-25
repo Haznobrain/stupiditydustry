@@ -8,7 +8,7 @@ ammoTypes: {
     damage: 80
     speed: 100
     lifetime: 4.8
-    knockBack: 20
+    knockback: 20
     collidesAir: false
       }
 }
