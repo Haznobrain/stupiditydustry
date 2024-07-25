@@ -14,7 +14,7 @@ weapons: [
   shootSound: fart
   bullet: {
     type: BombBulletType
-    sprite: mine
+    sprite: mine-bullet
     backSprite: stupidustry-duo
     shootEffect: none
     lifetime: 123
