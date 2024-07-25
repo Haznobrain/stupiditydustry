@@ -1,0 +1,34 @@
+speed: 1.23
+armor: 123
+health: 123
+weapons: [
+  {
+  minShootVelocity: 0.12
+  x: 3
+  shootY: 0
+  reload: 12
+  shootCone: 180
+  ejectEffect: casing4Double
+  inaccuracy: 12
+  ignoreRotation: true
+  shootSound: fart
+  bullet: {
+    type: BombBulletType
+    sprite: mine
+    backSprite: duo
+    width: 10
+    height: 10
+    hitEffect: {
+      type: MultiEffect
+      effects: [explosion, sapExplosion, flakExplosion, blastExplosion, sparkExplosion, titanExplosion, flakExplosionBig, plasticExplosion, scatheExplosion, plasticExplosionFlak, massiveExplosion]
+        }
+    splashDamage: 123
+    damage: 0
+    splashDamageRadius: 12.3
+    status: blasted
+    statusDuration: 123
+    shrinkX: 0
+    shrinkY: 0
+      }
+}
+]
