@@ -38,7 +38,7 @@ weapons: [
         }
     splashDamage: 123
     damage: 0
-    splashDamageRadius: 12.3
+    splashDamageRadius: 123
     status: blasted
     statusDuration: 123
     shrinkX: 0
