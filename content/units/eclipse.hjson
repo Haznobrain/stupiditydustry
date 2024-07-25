@@ -1,7 +1,7 @@
 health: 9999
 armor: 99
 speed: 15
-accel: 0.009
+accel: 0.09
 drag: 0.09
 weapons: [
   {
@@ -50,8 +50,8 @@ weapons: [
   name: large-laser-mount
   reload: 10
   shootSound: laser
-  x: 2
-  y: -2
+  x: 6
+  y: -6
   recoil: 1
   shootY: 9
   rotateSpeed: 10
@@ -71,8 +71,8 @@ weapons: [
   name: large-laser-mount
   reload: 10
   shootSound: laser
-  x: 2
-  y: 2
+  x: 6
+  y: 6
   recoil: 1
   shootY: 9
   rotateSpeed: 10
@@ -92,8 +92,8 @@ weapons: [
   name: large-laser-mount
   reload: 10
   shootSound: laser
-  x: 3
-  y: 3
+  x: 9
+  y: 9
   recoil: 1
   shootY: 9
   rotateSpeed: 10
@@ -113,8 +113,8 @@ weapons: [
   name: large-laser-mount
   reload: 10
   shootSound: laser
-  x: 3
-  y: -3
+  x: 9
+  y: -9
   recoil: 1
   shootY: 9
   rotateSpeed: 10
@@ -134,8 +134,8 @@ weapons: [
   name: large-laser-mount
   reload: 10
   shootSound: laser
-  x: 4
-  y: -4
+  x: 12
+  y: -12
   recoil: 1
   shootY: 9
   rotateSpeed: 10
@@ -155,8 +155,8 @@ weapons: [
   name: large-laser-mount
   reload: 10
   shootSound: laser
-  x: 4
-  y: -4
+  x: 12
+  y: -12
   recoil: 1
   shootY: 9
   rotateSpeed: 10
