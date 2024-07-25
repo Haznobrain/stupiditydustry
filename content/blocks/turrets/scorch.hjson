@@ -13,8 +13,8 @@ ammoTypes: {
 {
 type: ParticleEffect
 length: 10
-lengthFrom: 10
-lengthTo: 10
+lenFrom: 10
+lenTo: 10
 strokeFrom: 2
 strokeTo: 0
 line: true
@@ -25,8 +25,8 @@ layer: 111
         {
 type: ParticleEffect
 length: 10
-lengthFrom: 10
-lengthTo: 10
+lenFrom: 10
+lenTo: 10
 strokeFrom: 2
 strokeTo: 0
 line: true
@@ -37,8 +37,8 @@ layer: 111
 {
 type: ParticleEffect
 length: 10
-lengthFrom: 10
-lengthTo: 10
+lenFrom: 10
+lenTo: 10
 strokeFrom: 2
 strokeTo: 0
 line: true
