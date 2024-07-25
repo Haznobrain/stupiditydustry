@@ -5,7 +5,6 @@ range: 1000
 details: "i can feel the freedom coming inside me! oh wait no it's internal bleeding..."
 shootDuration: 0
 shootCone: 10
-continuous: false
 shootType: {
   type: BasicBulletType
   sprite: circle
