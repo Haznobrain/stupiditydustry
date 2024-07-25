@@ -17,8 +17,7 @@ ammoTypes: {
     liquid: water
     ammoMultiplier: 1
     damage: 100
-    orbRadius: 8
-    parentizeEffects: true
+    orbSize: 8
     collideTerrain: true
     trailEffect: {
       type: ParticleEffect
@@ -43,7 +42,6 @@ ammoTypes: {
   cryofluid: {
     type: LiquidBulletType
     speed: 2
-    parentizeEffects: true
     collideTerrain: true
     trailEffect: {
       type: ParticleEffect
@@ -60,7 +58,7 @@ ammoTypes: {
     liquid: cryofluid
     ammoMultiplier: 1
     damage: 140
-    orbRadius: 8
+    orbSize: 8
     trailChance: 1
     trailInterval: 4
     trailEffect: hitLiquid
@@ -79,7 +77,6 @@ ammoTypes: {
     trailChance: 1
     trailInterval: 4
     liquid: slag
-    parentizeEffects: true
     trailEffect: {
       type: ParticleEffect
       length: 24
@@ -93,7 +90,7 @@ ammoTypes: {
           }
     ammoMultiplier: 1
     damage: 200
-    orbRadius: 8
+    orbSize: 8
     trailEffect: hitLiquid
     hitEffect: hitLiquid
     collidesTiles: true
@@ -110,8 +107,7 @@ ammoTypes: {
     collideTerrain: true
     ammoMultiplier: 1
     damage: 150
-    orbRadius: 8
-    parentizeEffects: true
+    orbSize: 8
     trailEffect: {
       type: ParticleEffect
       length: 24
