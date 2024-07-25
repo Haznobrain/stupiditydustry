@@ -16,7 +16,7 @@ weapons: [
   bullet: {
     type: BombBulletType
     sprite: mine
-    backSprite: duo
+    backSprite: stupidustry-duo
     shootEffect: none
     smokeEffect: none
     width: 10
