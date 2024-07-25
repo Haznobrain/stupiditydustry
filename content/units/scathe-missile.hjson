@@ -40,7 +40,7 @@ bullet: {
         sizeTo: 130
           }]}
   collidesAir: false
-  buildingDamage: 0.25
+  buildingDamageMultiplier: 0.25
   ammoMultiplier: 1
   fragLifeMin: 0.1
   fragBullets: 7
