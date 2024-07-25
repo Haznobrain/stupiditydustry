@@ -1,0 +1,45 @@
+details: "quite"
+speed: 3
+circleTarget: true
+accel: 0.08
+weapons: [
+  {
+  name: large-laser-mount
+  shake: 1
+  reload: 4
+  y: 3
+  recoil: 0
+  shootSound: shockBlast
+  x: 0
+  mirror: false
+  shootY: 9
+  shoot: {
+      type: ShootHelix
+      shots: 3
+      scl: 2
+      mag: 3
+        }
+  bullet: {
+    type: MissileBulletType
+    speed: 3.1
+    lifetime: 40
+    height: 12
+    width: 12
+    homingPower: 0
+    hitEffect: {
+        type: MultiEffect
+        effects: [hitBeam, hitFuse, hitLaser, hitLancer, hitLiquid, hitEmpSpark, hitMeltHeal, hitMeltdown, hitBulletBig, hitFlameBig, hitFlameSmall, hitLaserBlast, hitLaserColor, hitBulletColor, hitFlamePlasma, hitSquaresColor, fireHit, instHit, railHit, pointHit]
+          }
+    damage: 123
+    fragBullets: 12
+    fragBullet: {
+      type: LaserBulletType
+      damage: 1
+      pierceCap: 10
+      length: 123
+      colors: [ec7458aa, ff9c5a, ffffff]
+      sideAngle: 123
+        }
+  }
+}
+]
