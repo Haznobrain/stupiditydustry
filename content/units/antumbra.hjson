@@ -1,0 +1,29 @@
+details: "yes, quite riveting indeed."
+speed: 0.5
+health: 15600
+weapons: [
+{
+y: 16
+x: 20
+reload: 60
+shoot: {
+  shots: 20
+  shotDelay: 1
+    }
+shootSound: missile
+bullet: {
+  type: MissileBulletType
+  speed: 1.5
+  weaveMag: 2
+  weaveScale: 2
+  lifetime: 50
+  hitSound: explosion
+  splashDamage: 50
+  splashDamageRadius: 24
+  damage: 100
+  hitEffect: massiveExplosion
+  despawnEffect: none
+  despawnHit: true
+    }
+}
+]
