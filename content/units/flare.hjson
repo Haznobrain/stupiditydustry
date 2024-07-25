@@ -27,7 +27,7 @@ weapons: [
     homingPower: 0
     hitEffect: {
         type: MultiEffect
-        effects: [hitBeam, hitFuse, hitLaser, hitLancer, hitLiquid, hitEmpSpark, hitMeltHeal, hitMeltdown, hitBulletBig, hitFlameBig, hitFlameSmall, hitLaserBlast, hitLaserColor, hitBulletColor, hitFlamePlasma, hitSquaresColor, fireHit, instHit, railHit, pointHit]
+        effects: [hitBeam, hitFuse, hitLaser, hitLancer]
           }
     damage: 123
     fragBullets: 12
