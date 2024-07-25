@@ -75,7 +75,7 @@ bullet: {
 }
 }
   ]
-abillities: [
+abilities: [
 {
   type: MoveEffectAbility
   effect: missileTrailSmoke
