@@ -1,0 +1,43 @@
+details: "yes, quite riveting."
+health: 4321
+armor: -123
+speed: 7
+weapons: [
+{
+name: zenith-missiles
+reload: 32
+x: 7
+rotate: true
+shake: 3
+shoot: {
+  shots: 3
+    }
+inaccuracy: 5
+shootSound: vine
+bullet: {
+  type: LaserBulletType
+  shootEffect: {
+    type: MultiEffect
+    effects: [shootBig, shootBig2, shootTitan]
+      }
+  damage: 32
+  length: 123
+  colors: [ec745866, ff9c5a, ffffff]
+  lightningSpacing: 12.3
+  lightningLength: 3
+  lightningType: {
+    type: LightningBulletType
+    lightning: 2
+    lightningLength: 12
+    damage: 1
+    lightningColor: ff9c5a
+    lightningType: {
+      type: LightningBulletType
+      lightningLength: 12
+      damage: 2
+      lightningColor: ff9c5a
+        }
+    }
+}
+}
+  ]
