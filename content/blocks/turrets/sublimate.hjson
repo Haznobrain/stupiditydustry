@@ -30,7 +30,7 @@ ammoTypes: {
                 hitEffect: {
                       type: ParticleEffect
                       lengthTo: 10
-                      lengthFrom: 10
+                      lenFrom: 10
                       strokeFrom: 2
                       strokeTo: 0
                       length: 16
