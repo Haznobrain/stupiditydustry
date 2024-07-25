@@ -23,7 +23,7 @@ weapons: [
     height: 10
     hitEffect: {
       type: MultiEffect
-      effects: [explosion, sapExplosion, flakExplosion, blastExplosion, sparkExplosion, titanExplosion, flakExplosionBig]
+      effects: [explosion, sapExplosion, blastExplosion, titanExplosion, flakExplosionBig]
         }
     splashDamage: 123
     damage: 0
