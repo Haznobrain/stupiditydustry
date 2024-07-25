@@ -18,12 +18,24 @@ weapons: [
     sprite: mine
     backSprite: stupidustry-duo
     shootEffect: none
+    lifetime: 12
     smokeEffect: none
     width: 10
     height: 10
     hitEffect: {
       type: MultiEffect
-      effects: [explosion, sapExplosion, blastExplosion, titanExplosion, flakExplosionBig]
+      effects: [
+      {
+      type: WrapEffect
+      effect: dynamicExplosion
+      rotation: 12.3
+      }
+      {
+      type: WrapEffect
+      effect: dynamicSpikes
+      rotation: 12.3
+      }
+        ]
         }
     splashDamage: 123
     damage: 0
