@@ -1,7 +1,6 @@
 details: "quite"
 speed: 3
 circleTarget: true
-accel: 0.08
 weapons: [
   {
   name: large-laser-mount
@@ -17,7 +16,7 @@ weapons: [
       type: ShootHelix
       shots: 3
       scl: 2
-      mag: 3
+      mag: 2
         }
   bullet: {
     type: MissileBulletType
@@ -32,12 +31,13 @@ weapons: [
           }
     damage: 123
     fragBullets: 12
+    fragRandomSpread: 0
     fragBullet: {
       type: LaserBulletType
       damage: 1
       pierceCap: 10
       length: 123
-      colors: [ec7458aa, ff9c5a, ffffff]
+      colors: [ec7458, ff9c5a, ffffff]
       sideAngle: 123
         }
   }
