@@ -14,7 +14,7 @@ ammoTypes: {
     homingRange: 8000
     homingPower: 61
     fragOnHit: true
-    trailScl: 4
+    trailParam: 4
     trailColor: 89769a
     backColor: 89769a
     frontColor: 89769a
