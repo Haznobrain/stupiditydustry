@@ -1,0 +1,175 @@
+health: 9999
+armor: 99
+speed: 15
+accel: 0.009
+drag: 0.09
+weapons: [
+  {
+  name: large-laser-mount
+  reload: 10
+  shootSound: laser
+  x: 1
+  y: 1
+  recoil: 1
+  shootY: 9
+  rotateSpeed: 10
+  rotate: true
+  bullet: {
+    type: LaserBulletType
+    damage: 999
+    length: 321
+    width: 16
+    sideAngle: 45
+    colors: [ff0000aa, ff0000, ffffff]
+    lifetime: 20
+    recoil: -0.1
+      }
+}
+  {
+  name: large-laser-mount
+  reload: 10
+  shootSound: laser
+  x: 1
+  y: -1
+  recoil: 1
+  shootY: 9
+  rotateSpeed: 10
+  rotate: true
+  bullet: {
+    type: LaserBulletType
+    damage: 999
+    length: 321
+    width: 16
+    sideAngle: 45
+    colors: [ 00ff00aa, 00ff00, ffffff]
+    lifetime: 20
+    recoil: -0.1
+      }
+}
+  {
+  name: large-laser-mount
+  reload: 10
+  shootSound: laser
+  x: 2
+  y: -2
+  recoil: 1
+  shootY: 9
+  rotateSpeed: 10
+  rotate: true
+  bullet: {
+    type: LaserBulletType
+    damage: 999
+    length: 321
+    width: 16
+    sideAngle: 45
+    colors: [ 0000ffaa, 0000ff, ffffff]
+    lifetime: 20
+    recoil: -0.1
+      }
+}
+  {
+  name: large-laser-mount
+  reload: 10
+  shootSound: laser
+  x: 2
+  y: 2
+  recoil: 1
+  shootY: 9
+  rotateSpeed: 10
+  rotate: true
+  bullet: {
+    type: LaserBulletType
+    damage: 999
+    length: 321
+    width: 16
+    sideAngle: 45
+    colors: [ ffee00aa, ffee00, ffffff]
+    lifetime: 20
+    recoil: -0.1
+      }
+}
+  {
+  name: large-laser-mount
+  reload: 10
+  shootSound: laser
+  x: 3
+  y: 3
+  recoil: 1
+  shootY: 9
+  rotateSpeed: 10
+  rotate: true
+  bullet: {
+    type: LaserBulletType
+    damage: 999
+    length: 321
+    width: 16
+    sideAngle: 45
+    colors: [ ffaa00aa, ffaa00, ffffff]
+    lifetime: 20
+    recoil: -0.1
+      }
+}
+  {
+  name: large-laser-mount
+  reload: 10
+  shootSound: laser
+  x: 3
+  y: -3
+  recoil: 1
+  shootY: 9
+  rotateSpeed: 10
+  rotate: true
+  bullet: {
+    type: LaserBulletType
+    damage: 999
+    length: 321
+    width: 16
+    sideAngle: 45
+    colors: [ ff00aaaa, ff00aa, ffffff]
+    lifetime: 20
+    recoil: -0.1
+      }
+}
+  {
+  name: large-laser-mount
+  reload: 10
+  shootSound: laser
+  x: 4
+  y: -4
+  recoil: 1
+  shootY: 9
+  rotateSpeed: 10
+  rotate: true
+  bullet: {
+    type: LaserBulletType
+    damage: 999
+    length: 321
+    width: 16
+    sideAngle: 45
+    colors: [ ff00ffaa, ff00ff, ffffff]
+    lifetime: 20
+    recoil: -0.1
+      }
+}
+  {
+  name: large-laser-mount
+  reload: 10
+  shootSound: laser
+  x: 4
+  y: -4
+  recoil: 1
+  shootY: 9
+  rotateSpeed: 10
+  rotate: true
+  bullet: {
+    type: LaserBulletType
+    damage: 999
+    length: 321
+    width: 16
+    sideAngle: 45
+    colors: [ 00ffffaa, 00ffff, ffffff]
+    lifetime: 20
+    recoil: -0.1
+      }
+}
+]
