@@ -17,7 +17,7 @@ weapons: [
     sprite: mine
     backSprite: stupidustry-duo
     shootEffect: none
-    lifetime: 12
+    lifetime: 123
     smokeEffect: none
     width: 10
     height: 10
