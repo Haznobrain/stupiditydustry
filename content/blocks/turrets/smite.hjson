@@ -63,8 +63,8 @@ surge-alloy: {
   particles: 70
   length: 120
   line: true
-  lengthFrom: 12
-  lengthTo: 10
+  lenFrom: 12
+  lenTo: 10
   strokeFrom: 3
   strokeTo: 0
   interp: pow10Out
