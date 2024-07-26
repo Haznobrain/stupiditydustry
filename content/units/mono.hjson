@@ -1,0 +1,28 @@
+speed: 10
+health: 1234567
+armor: 987
+drag: 0.09
+accel: 0.09
+weapons: [
+  {
+    y: 4
+    x: 0
+    mirror: false
+    rotate: false
+    reload: 5
+    shootSound: bell
+    shootY: 0
+    recoil: 0
+    bullet: {
+        type: RailBulletType
+        length: 500
+        shootEffect: railShoot
+        pointEffectSpace: 60
+        trailEffect: railTrail
+        hitEffect: massiveExplosion
+        pierceEffect: railHit
+        smokeEffect: shootBig2
+        damage: 12345
+          }
+}
+]
