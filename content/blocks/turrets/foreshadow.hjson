@@ -3,7 +3,7 @@ ammoTypes: {
   surge-alloy: {
     type: LiquidBulletType
     liquid: slag
-    lifetime: 50
+    lifetime: 200
     speed: 10
     orbSize: 10
     damage: 300
@@ -12,5 +12,6 @@ ammoTypes: {
     ammoMultiplier: 50
       }
 }
+range: 2000
 maxAmmo: 5000
 details: "the true super laser piss, eggman's perfect creation"
