@@ -18,7 +18,7 @@ weapons: [
         length: 500
         shootEffect: railShoot
         pointEffectSpace: 60
-        trailEffect: railTrail
+        pointEffect: railTrail
         hitEffect: massiveExplosion
         pierceEffect: railHit
         smokeEffect: shootBig2
