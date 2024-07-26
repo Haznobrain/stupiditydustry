@@ -25,4 +25,55 @@ weapons: [
         damage: 12345
           }
 }
+{
+  name: spoon-weapon
+  reload: 2
+  alternate: false
+  x: 8
+  y: 1
+  rotate: true
+  rotateSpeed: 2.9
+  shootSound: shootSnap
+  shoot: {
+    type: ShootMulti
+    source: {
+      type: ShootBarrels
+      barrels: [
+        2, 10, 20,
+        -2, 10, 20,
+        0, -10, 0,
+            ]
+      shots: 3
+        }
+    dest: [
+    {
+    type: ShootSine
+    scl: 2
+    mag: 10
+    }
+          ]
+    }
+  bullet: {
+    type: BasicBulletType
+    sprite: stupidustry-spoon
+    backSprite: stupidustry-spoon-back
+    frontColor: 7e868c
+    backColor: 5c6062
+    damage: 1234
+    speed: 12
+    lifetime: 123
+    pierce: true
+    pierceBuilding: true
+    inaccuracy: 3
+    shootEffect: {
+      type: MultiEffect
+      effects: [shootBigColor, shootColorSpark]
+        }
+    hitEffect: hitBulletColor
+    hitColor: 7e868c
+    despawnEffect: hitBulletColor
+    despawnHit: false
+    shrinkY: 0
+    }
+}
 ]
