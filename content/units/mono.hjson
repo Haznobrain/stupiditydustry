@@ -61,6 +61,7 @@ weapons: [
     backColor: 5c6062
     damage: 1234
     speed: 12
+    spin: 5
     lifetime: 123
     pierce: true
     pierceBuilding: true
