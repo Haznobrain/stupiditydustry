@@ -37,7 +37,7 @@ weapons: [
   shoot: {
     type: ShootMulti
     source: {
-      type: ShootBarrels
+      type: ShootBarrel
       barrels: [
         2, 10, 20,
         -2, 10, 20,
@@ -67,7 +67,7 @@ weapons: [
     inaccuracy: 3
     shootEffect: {
       type: MultiEffect
-      effects: [shootBigColor, shootColorSpark]
+      effects: [shootBigColor, colorSparkBig]
         }
     hitEffect: hitBulletColor
     hitColor: 7e868c
