@@ -116,10 +116,6 @@ weapons: [
   type: RepairBeamWeapon
   targetBuildings: true
   repairSpeed: 40
-  laser: none
-  laserEnd: none
-  laserTop: none
-  laserTopEnd: none
   laserColor: 00000000
   targetUnits: false
   bullet: {
@@ -130,10 +126,6 @@ weapons: [
   type: RepairBeamWeapon
   targetBuildings: true
   repairSpeed: 40
-  laser: none
-  laserEnd: none
-  laserTop: none
-  laserTopEnd: none
   laserColor: 00000000
   targetUnits: false
   bullet: {
@@ -144,10 +136,6 @@ weapons: [
   type: RepairBeamWeapon
   targetBuildings: true
   repairSpeed: 40
-  laser: none
-  laserEnd: none
-  laserTop: none
-  laserTopEnd: none
   laserColor: 00000000
   targetUnits: false
   bullet: {
@@ -158,10 +146,6 @@ weapons: [
   type: RepairBeamWeapon
   targetBuildings: true
   repairSpeed: 40
-  laser: none
-  laserEnd: none
-  laserTop: none
-  laserTopEnd: none
   laserColor: 00000000
   targetUnits: false
   bullet: {
@@ -172,10 +156,6 @@ weapons: [
   type: RepairBeamWeapon
   targetBuildings: true
   repairSpeed: 40
-  laser: none
-  laserEnd: none
-  laserTop: none
-  laserTopEnd: none
   laserColor: 00000000
   targetUnits: false
   bullet: {
@@ -186,10 +166,6 @@ weapons: [
   type: RepairBeamWeapon
   targetBuildings: true
   repairSpeed: 40
-  laser: none
-  laserEnd: none
-  laserTop: none
-  laserTopEnd: none
   laserColor: 00000000
   targetUnits: false
   bullet: {
