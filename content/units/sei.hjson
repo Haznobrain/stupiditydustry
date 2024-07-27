@@ -1,3 +1,4 @@
 flying: true
 engineSize: 3
 engineOffset: 6
+hitSize: 13
