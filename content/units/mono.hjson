@@ -3,6 +3,27 @@ health: 1234567
 armor: 987
 drag: 0.09
 accel: 0.09
+abilities: [
+{
+type: RepairFieldAbility
+amount: 10000
+reload: 60
+range: 200
+}
+{
+type: StatusFieldAbility
+range: 100
+effect: boss
+duration: 1000000
+reload: 300
+activeEffect: {
+    type: WrapEffect
+    effect: dynamicSpikes
+    rot: 100
+    color: f25555
+      }
+}
+]
 weapons: [
   {
     y: 4
@@ -75,6 +96,104 @@ weapons: [
     despawnEffect: hitBulletColor
     despawnHit: false
     shrinkY: 0
+    }
+}
+{
+  type: RepairBeamWeapon
+  targetBuildings: true
+  repairSpeed: 40
+  laser: none
+  laserEnd: none
+  laserTop: none
+  laserTopEnd: none
+  laserColor: 00000000
+  targetUnits: false
+  bullet: {
+    maxRange: 200
+    }
+}
+{
+  type: RepairBeamWeapon
+  targetBuildings: true
+  repairSpeed: 40
+  laser: none
+  laserEnd: none
+  laserTop: none
+  laserTopEnd: none
+  laserColor: 00000000
+  targetUnits: false
+  bullet: {
+    maxRange: 200
+    }
+}
+{
+  type: RepairBeamWeapon
+  targetBuildings: true
+  repairSpeed: 40
+  laser: none
+  laserEnd: none
+  laserTop: none
+  laserTopEnd: none
+  laserColor: 00000000
+  targetUnits: false
+  bullet: {
+    maxRange: 200
+    }
+}
+{
+  type: RepairBeamWeapon
+  targetBuildings: true
+  repairSpeed: 40
+  laser: none
+  laserEnd: none
+  laserTop: none
+  laserTopEnd: none
+  laserColor: 00000000
+  targetUnits: false
+  bullet: {
+    maxRange: 200
+    }
+}
+{
+  type: RepairBeamWeapon
+  targetBuildings: true
+  repairSpeed: 40
+  laser: none
+  laserEnd: none
+  laserTop: none
+  laserTopEnd: none
+  laserColor: 00000000
+  targetUnits: false
+  bullet: {
+    maxRange: 200
+    }
+}
+{
+  type: RepairBeamWeapon
+  targetBuildings: true
+  repairSpeed: 40
+  laser: none
+  laserEnd: none
+  laserTop: none
+  laserTopEnd: none
+  laserColor: 00000000
+  targetUnits: false
+  bullet: {
+    maxRange: 200
+    }
+}
+{
+  type: RepairBeamWeapon
+  targetBuildings: true
+  repairSpeed: 40
+  laser: none
+  laserEnd: none
+  laserTop: none
+  laserTopEnd: none
+  laserColor: 00000000
+  targetUnits: false
+  bullet: {
+    maxRange: 200
     }
 }
 ]
