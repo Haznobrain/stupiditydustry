@@ -19,7 +19,7 @@ reload: 300
 activeEffect: {
     type: WrapEffect
     effect: dynamicSpikes
-    rot: 100
+    rotation: 100
     color: f25555
       }
 }
