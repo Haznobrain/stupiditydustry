@@ -1,0 +1,33 @@
+weapons: [
+{
+type: RepairBeamWeapon
+name: repair-beam-weapon-center
+x: 0
+y: -5.5
+shootY: 6
+beamWidth: 0.8
+mirror: false
+repairSpeed: 0.75
+bullet: {
+  maxRange: 120
+    }
+}
+{
+mirror: false
+rotate: true
+reload: 90
+x: 0
+y: 0
+shootX: 0
+shootY: 0
+rotateSpeed: 180
+targetAir: false
+shoot: {
+  shots: 3
+  shotDelay: 7
+    }
+bullet: {
+  spawnUnit: missile-1
+    }
+}
+]
