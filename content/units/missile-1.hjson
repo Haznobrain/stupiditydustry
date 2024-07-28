@@ -60,7 +60,6 @@ weapons: [{
           }
 shootSound: none
 type: ExplosionBulletType
-instantDisapear: true
 width: 0
 height: 0
 keepVelocity: false
