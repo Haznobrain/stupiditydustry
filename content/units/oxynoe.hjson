@@ -2,7 +2,7 @@ speed: 1
 health: 90
 weapons: [
 {
-name: mindustry-plasma-mount-weapon
+name: plasma-mount-weapon
 reload: 5
 x: 4.5
 y: 6.5
@@ -72,7 +72,7 @@ sizeFrom: 4
 }
 }
   {
-name: mindustry-plasma-mount-weapon
+name: plasma-mount-weapon
 reload: 5
 x: 4.5
 y: 4.5
@@ -142,7 +142,7 @@ sizeFrom: 4
 }
 }
 {
-name: mindustry-plasma-mount-weapon
+name: plasma-mount-weapon
 reload: 5
 x: 4.5
 y: 2.5
@@ -212,7 +212,7 @@ sizeFrom: 4
 }
 }
 {
-name: mindustry-plasma-mount-weapon
+name: plasma-mount-weapon
 reload: 5
 x: 4.5
 y: 0.5
