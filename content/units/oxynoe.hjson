@@ -1,0 +1,284 @@
+speed: 1
+health: 90
+weapons: [
+{
+name: mindustry-plasma-mount-weapon
+reload: 5
+x: 4.5
+y: 6.5
+rotate: true
+rotateSpeed: 5
+inaccuracy: 10
+ejectEffect: casing1
+shootSound: fart
+shootCone: 30
+bullet: {
+  type: BulletType
+  speed: 3.4
+  damage: 90
+  parts: [
+{
+type: ShapePart
+circle: true
+progress: {
+  type: life
+  op: curve
+  interp: slope
+    }
+radius: 5
+color: 98ffa9
+radiusTo: 0
+  }
+    ]
+  hitSize: 10
+  lifetime: 40
+  pierce: true
+  collidesAir: true
+  statusDuration: 240
+  hitEffect: {
+    type: MultiEffect
+    effects: [hitBulletColor, hitFlamePlasma, hitMeltHeal]
+      }
+  hitColor: 98ffa9
+  status: burning
+  shootEffect: {
+    type: MultiEffect
+      effects: [
+{
+type: ParticleEffect
+cone: 4
+particles: 12
+length: 10
+lifetime: 6
+layer: 110
+colorFrom: ffffffff
+colorTo: 98ffa9
+sizeFrom: 4
+}
+{
+type: ParticleEffect
+cone: 4
+particles: 12
+length: 20
+interp: pow5Out
+lifetime: 12
+colorFrom: 98ffa9
+colorTo: 808080
+sizeInterp: pow5In
+sizeFrom: 4
+}
+]
+  }
+}
+}
+  {
+name: mindustry-plasma-mount-weapon
+reload: 5
+x: 4.5
+y: 4.5
+rotate: true
+rotateSpeed: 5
+inaccuracy: 10
+ejectEffect: casing1
+shootSound: fart
+shootCone: 30
+bullet: {
+  type: BulletType
+  speed: 3.4
+  damage: 90
+  parts: [
+{
+type: ShapePart
+circle: true
+progress: {
+  type: life
+  op: curve
+  interp: slope
+    }
+radius: 5
+color: 98ffa9
+radiusTo: 0
+  }
+    ]
+  hitSize: 10
+  lifetime: 40
+  pierce: true
+  collidesAir: true
+  statusDuration: 240
+  hitEffect: {
+    type: MultiEffect
+    effects: [hitBulletColor, hitFlamePlasma, hitMeltHeal]
+      }
+  hitColor: 98ffa9
+  status: burning
+  shootEffect: {
+    type: MultiEffect
+      effects: [
+{
+type: ParticleEffect
+cone: 4
+particles: 12
+length: 10
+lifetime: 6
+layer: 110
+colorFrom: ffffffff
+colorTo: 98ffa9
+sizeFrom: 4
+}
+{
+type: ParticleEffect
+cone: 4
+particles: 12
+length: 20
+interp: pow5Out
+lifetime: 12
+colorFrom: 98ffa9
+colorTo: 808080
+sizeInterp: pow5In
+sizeFrom: 4
+}
+]
+  }
+}
+}
+{
+name: mindustry-plasma-mount-weapon
+reload: 5
+x: 4.5
+y: 2.5
+rotate: true
+rotateSpeed: 5
+inaccuracy: 10
+ejectEffect: casing1
+shootSound: fart
+shootCone: 30
+bullet: {
+  type: BulletType
+  speed: 3.4
+  damage: 90
+  parts: [
+{
+type: ShapePart
+circle: true
+progress: {
+  type: life
+  op: curve
+  interp: slope
+    }
+radius: 5
+color: 98ffa9
+radiusTo: 0
+  }
+    ]
+  hitSize: 10
+  lifetime: 40
+  pierce: true
+  collidesAir: true
+  statusDuration: 240
+  hitEffect: {
+    type: MultiEffect
+    effects: [hitBulletColor, hitFlamePlasma, hitMeltHeal]
+      }
+  hitColor: 98ffa9
+  status: burning
+  shootEffect: {
+    type: MultiEffect
+      effects: [
+{
+type: ParticleEffect
+cone: 4
+particles: 12
+length: 10
+lifetime: 6
+layer: 110
+colorFrom: ffffffff
+colorTo: 98ffa9
+sizeFrom: 4
+}
+{
+type: ParticleEffect
+cone: 4
+particles: 12
+length: 20
+interp: pow5Out
+lifetime: 12
+colorFrom: 98ffa9
+colorTo: 808080
+sizeInterp: pow5In
+sizeFrom: 4
+}
+]
+  }
+}
+}
+{
+name: mindustry-plasma-mount-weapon
+reload: 5
+x: 4.5
+y: 0.5
+rotate: true
+rotateSpeed: 5
+inaccuracy: 10
+ejectEffect: casing1
+shootSound: fart
+shootCone: 30
+bullet: {
+  type: BulletType
+  speed: 3.4
+  damage: 90
+  parts: [
+{
+type: ShapePart
+circle: true
+progress: {
+  type: life
+  op: curve
+  interp: slope
+    }
+radius: 5
+color: 98ffa9
+radiusTo: 0
+  }
+    ]
+  hitSize: 10
+  lifetime: 40
+  pierce: true
+  collidesAir: true
+  statusDuration: 240
+  hitEffect: {
+    type: MultiEffect
+    effects: [hitBulletColor, hitFlamePlasma, hitMeltHeal]
+      }
+  hitColor: 98ffa9
+  status: burning
+  shootEffect: {
+    type: MultiEffect
+      effects: [
+{
+type: ParticleEffect
+cone: 4
+particles: 12
+length: 10
+lifetime: 6
+layer: 110
+colorFrom: ffffffff
+colorTo: 98ffa9
+sizeFrom: 4
+}
+{
+type: ParticleEffect
+cone: 4
+particles: 12
+length: 20
+interp: pow5Out
+lifetime: 12
+colorFrom: 98ffa9
+colorTo: 808080
+sizeInterp: pow5In
+sizeFrom: 4
+}
+]
+  }
+}
+}
+]
