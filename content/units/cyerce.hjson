@@ -15,7 +15,7 @@ weapons: [
   shootSound: missile
   bullet: {
     type: FlakBulletType
-    sprite: stupidustry-cyerce
+    sprite: "stupidustry-cyerce"
     collidesGround: true
     collidesAir: true
     explodeRange: 40
@@ -62,7 +62,7 @@ weapons: [
       shootEffect: shootTitan
       smokeEffect:{
         type: WrapEffect
-        color: ffffffff
+        color: ffffff
         effect: shootSmokeTitan
           }
       lightColor: ffffff
@@ -102,7 +102,7 @@ weapons: [
       shootEffect: shootTitan
       smokeEffect:{
         type: WrapEffect
-        color: ffffffff
+        color: ffffff
         effect: shootSmokeTitan
           }
       lightColor: ffffff
@@ -142,7 +142,7 @@ weapons: [
       shootEffect: shootTitan
       smokeEffect:{
         type: WrapEffect
-        color: ffffffff
+        color: ffffff
         effect: shootSmokeTitan
           }
       lightColor: ffffff
@@ -182,7 +182,7 @@ weapons: [
       shootEffect: shootTitan
       smokeEffect:{
         type: WrapEffect
-        color: ffffffff
+        color: ffffff
         effect: shootSmokeTitan
           }
       lightColor: ffffff
@@ -222,7 +222,7 @@ weapons: [
       shootEffect: shootTitan
       smokeEffect:{
         type: WrapEffect
-        color: ffffffff
+        color: ffffff
         effect: shootSmokeTitan
           }
       lightColor: ffffff
@@ -262,7 +262,7 @@ weapons: [
       shootEffect: shootTitan
       smokeEffect:{
         type: WrapEffect
-        color: ffffffff
+        color: ffffff
         effect: shootSmokeTitan
           }
       lightColor: ffffff
@@ -302,7 +302,7 @@ weapons: [
       shootEffect: shootTitan
       smokeEffect:{
         type: WrapEffect
-        color: ffffffff
+        color: ffffff
         effect: shootSmokeTitan
           }
       lightColor: ffffff
@@ -342,7 +342,7 @@ weapons: [
       shootEffect: shootTitan
       smokeEffect:{
         type: WrapEffect
-        color: ffffffff
+        color: ffffff
         effect: shootSmokeTitan
           }
       lightColor: ffffff
@@ -382,7 +382,7 @@ weapons: [
       shootEffect: shootTitan
       smokeEffect:{
         type: WrapEffect
-        color: ffffffff
+        color: ffffff
         effect: shootSmokeTitan
           }
       lightColor: ffffff
@@ -422,7 +422,7 @@ weapons: [
       shootEffect: shootTitan
       smokeEffect:{
         type: WrapEffect
-        color: ffffffff
+        color: ffffff
         effect: shootSmokeTitan
           }
       lightColor: ffffff
@@ -462,7 +462,7 @@ weapons: [
       shootEffect: shootTitan
       smokeEffect:{
         type: WrapEffect
-        color: ffffffff
+        color: ffffff
         effect: shootSmokeTitan
           }
       lightColor: ffffff
@@ -502,7 +502,7 @@ weapons: [
       shootEffect: shootTitan
       smokeEffect:{
         type: WrapEffect
-        color: ffffffff
+        color: ffffff
         effect: shootSmokeTitan
           }
       lightColor: ffffff
@@ -542,7 +542,7 @@ weapons: [
       shootEffect: shootTitan
       smokeEffect:{
         type: WrapEffect
-        color: ffffffff
+        color: ffffff
         effect: shootSmokeTitan
           }
       lightColor: ffffff
@@ -582,7 +582,7 @@ weapons: [
       shootEffect: shootTitan
       smokeEffect:{
         type: WrapEffect
-        color: ffffffff
+        color: ffffff
         effect: shootSmokeTitan
           }
       lightColor: ffffff
@@ -622,7 +622,7 @@ weapons: [
       shootEffect: shootTitan
       smokeEffect:{
         type: WrapEffect
-        color: ffffffff
+        color: ffffff
         effect: shootSmokeTitan
           }
       lightColor: ffffff
@@ -662,7 +662,7 @@ weapons: [
       shootEffect: shootTitan
       smokeEffect:{
         type: WrapEffect
-        color: ffffffff
+        color: ffffff
         effect: shootSmokeTitan
           }
       lightColor: ffffff
@@ -702,7 +702,7 @@ weapons: [
       shootEffect: shootTitan
       smokeEffect:{
         type: WrapEffect
-        color: ffffffff
+        color: ffffff
         effect: shootSmokeTitan
           }
       lightColor: ffffff
@@ -742,7 +742,7 @@ weapons: [
       shootEffect: shootTitan
       smokeEffect:{
         type: WrapEffect
-        color: ffffffff
+        color: ffffff
         effect: shootSmokeTitan
           }
       lightColor: ffffff
@@ -782,7 +782,7 @@ weapons: [
       shootEffect: shootTitan
       smokeEffect:{
         type: WrapEffect
-        color: ffffffff
+        color: ffffff
         effect: shootSmokeTitan
           }
       lightColor: ffffff
@@ -822,7 +822,7 @@ weapons: [
       shootEffect: shootTitan
       smokeEffect:{
         type: WrapEffect
-        color: ffffffff
+        color: ffffff
         effect: shootSmokeTitan
           }
       lightColor: ffffff
@@ -862,7 +862,7 @@ weapons: [
       shootEffect: shootTitan
       smokeEffect:{
         type: WrapEffect
-        color: ffffffff
+        color: ffffff
         effect: shootSmokeTitan
           }
       lightColor: ffffff
@@ -902,7 +902,7 @@ weapons: [
       shootEffect: shootTitan
       smokeEffect:{
         type: WrapEffect
-        color: ffffffff
+        color: ffffff
         effect: shootSmokeTitan
           }
       lightColor: ffffff
@@ -942,7 +942,7 @@ weapons: [
       shootEffect: shootTitan
       smokeEffect:{
         type: WrapEffect
-        color: ffffffff
+        color: ffffff
         effect: shootSmokeTitan
           }
       lightColor: ffffff
@@ -982,7 +982,47 @@ weapons: [
       shootEffect: shootTitan
       smokeEffect:{
         type: WrapEffect
-        color: ffffffff
+        color: ffffff
+        effect: shootSmokeTitan
+          }
+      lightColor: ffffff
+      lightRadius: 40
+      lightOpacity: 0.7
+      trailColor: ffffff
+      trailWidth: 2.5
+      trailLength: 20
+      trailChance: -1
+      despawnEffect: none
+      hitEffect: {
+        type: ExplosionEffect
+        lifetime: 20
+        waveStroke: 2
+        waveLife: 10
+        waveColor: ffffff
+        waveRad: 12
+        smokeSize: 0
+        smokeSizeBase: 0
+        smokeColor: ffffff
+        sparkColor: ffffff
+        sparks: 9
+        sparkLen: 4
+        sparkRad: 35
+        sparkLen: 40
+        sparkStroke: 2
+        }
+      fragBullets: 1
+      fragVelocityMin: 0.3
+      fragBullet:{
+      type: MissileBulletType
+      speed: 3.9
+      damage: 11
+      homingPower: 0.2
+      lifetime: 60
+      keepVelocity: false
+      shootEffect: shootTitan
+      smokeEffect:{
+        type: WrapEffect
+        color: ffffff
         effect: shootSmokeTitan
           }
       lightColor: ffffff
@@ -1012,13 +1052,29 @@ weapons: [
         }
 }
 }
-      }
-      }
-      }
-      }
-      }
-      }
-      }
-      }
-      }
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
+}
 ]
