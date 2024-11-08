@@ -24,6 +24,9 @@ bullet: {
   hitShake: 1
   collidesAir: false
   despawnEffect: none
+  despawnHit: true
+  splashDamage: 200
+  splashDamageRadius: 400
   hitEffect: {
       type: ParticleEffect
       particles: 1
