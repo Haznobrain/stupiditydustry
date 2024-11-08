@@ -1,1 +1,37 @@
 hitSize: 72
+weapons: [
+{
+reload: 120
+x: 0
+y: 0
+mirror: false
+minShootVelocity: 0.001
+soundPitchMin: 1
+shootSound: plasmadrop
+bullet: {
+  type: BasicBulletType
+  sprite: large-bomb
+  width: 30
+  height: 30
+  maxRange: 30
+  ignoreRotation: true
+  backColor: ffffff
+  frontColor: ffffff
+  mixColorTo: ffffff
+  hitSound: plasmaBoom
+  shootCone: 180
+  ejectEffect: none
+  hitShake: 1
+  collidesAir: false
+  despawnEffect: none
+  hitEffect: {
+      type: ParticleEffect
+      particles: 1
+      sizeFrom: 8196
+      sizeTo: 8196
+      colorFrom: ffffffff
+      colorTo: ffffffff
+      lifetime: 300
+      }
+}
+]
