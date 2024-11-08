@@ -1,1 +1,11 @@
 hitSize: 60
+health: 1251
+armor: 60
+abilities: [
+{
+type: RepairFieldAbility
+range: 10
+reload: 5
+amount: 1250
+  }
+  ]
