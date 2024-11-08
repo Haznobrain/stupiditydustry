@@ -1,0 +1,34 @@
+speed: 10
+hitSize: 1
+drag: 0.001
+weapons: [
+{
+reload: 2
+shoot: {
+  type: ShootHelix
+  scl: 16
+  mag: 1
+  shots: 4
+    }
+x: 3.75
+y: 2.5
+name: poly-weapon
+shootSound: laserBlast
+bullet: {
+  type: BasicBulletType
+  speed: 2
+  damage: 8
+  lifetime: 100
+  keepVelocity: false
+  hitEffect: hitLaserBlast
+  despawnEffect: hitLaserBlast
+  frontColor: ffffff
+  backColor: 98ffa9
+  pierce: false
+  height: 1
+  width: 10
+  trailEffect: smokeCloud
+  trailInterval: 1
+    }
+}
+]
