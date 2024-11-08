@@ -8,6 +8,7 @@ mirror: false
 minShootVelocity: 0.001
 soundPitchMin: 1
 shootSound: plasmadrop
+shootCone: 180
 bullet: {
   type: BasicBulletType
   sprite: large-bomb
