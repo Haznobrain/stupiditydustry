@@ -33,8 +33,9 @@ bullet: {
       sizeFrom: 8196
       sizeTo: 8196
       colorFrom: ffffffff
-      colorTo: ffffffff
+      colorTo: ffffff00
       lifetime: 300
+      layer: 130
       }
 }
 }
