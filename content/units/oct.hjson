@@ -1,1 +1,176 @@
 hitSize: 120
+weapons: [
+{
+name: large-weapon
+reload: 13
+x: 4
+y: 2
+top: false
+ejectEffect: casing1
+bullet: {
+  type: BasicBulletType
+  speed: 2.5
+  damage: 9
+  lifetime: 60
+  width: 7
+  height: 9
+  }
+}
+{
+name: flamethrower
+top: false
+shootSound: flame
+shootY: 2
+reload: 11
+recoil: 1
+ejectEffect: none
+bullet: {
+  type: BulletType
+  speed: 4.2
+  damage: 37
+  ammoMultiplier: 3
+  hitSize: 7
+  lifetime: 13
+  pierce: true
+  pierceBuilding: true
+  pierceCap: 2
+  statusDuration: 240
+  shootEffect: shootFlameSmall
+  hitEffect: hitFlameSmall
+  despawnEffect: none
+  status: burning
+  keepVelocity: false
+  hittable: false
+  }
+}
+{
+name: artillery
+top: false
+y: 1
+x: 9
+reload: 60
+recoil: 4
+shake: 2
+ejectEffect: casing2
+shootSound: artillery
+bullet: {
+  type: ArtilleryBulletType
+  sprite: shell
+  speed: 2
+  damage: 20
+  hitEffect: blastExplosion 
+  knockBack: 0.8
+  lifetime: 120
+  width: 14
+  height: 14
+  collides: true
+  collidesTiles: true
+  splashDamageRadius: 35
+  splashDamage: 80
+  backColor: f9c27a
+  frontColor: fff8e8
+  }
+}
+{
+name: scepter-weapon
+top: false
+y: -1
+x: 16
+shootY: 8
+reload: 45
+recoil: 5
+shake: 2
+ejectEffect: casing3
+shootSound: bang
+inaccuracy: 3
+shoot: {
+  shots: 3
+  shotDelay: 4
+  }
+bullet: {
+  speed: 8
+  damage: 80
+  width: 11
+  height: 20
+  lifetime: 27
+  shootEffect: shootBig
+  lightning: 2
+  lightningLength: 6
+  lightningColor: f3e979
+  lightningDamage: 20
+  }
+}
+{
+name: mount-weapon
+reload: 13
+x: 8.5
+y: 6
+rotate: true
+ejectEffect: casing1
+bullet: {
+  type: BasicBulletType
+  speed: 3
+  damage: 10
+  width: 7
+  height: 9
+  lifetime: 50
+  }
+}
+{
+name: mount-weapon
+reload: 16
+x: 8.5
+y: -7
+rotate: true
+ejectEffect: casing1
+bullet: {
+  type: BasicBulletType
+  speed: 3
+  damage: 10
+  width: 7
+  height: 9
+  lifetime: 50
+  }
+}
+{
+name: reign-weapon
+top: false
+y: 1
+x: 21.5
+shootY: 11
+reload: 9
+recoil: 5
+shake: 2
+ejectEffect: casing4
+shootSound: bang
+bullet: {
+  type: BasicBulletType
+  speed: 13
+  damage: 80
+  pierce: true
+  pierceCap: 10
+  width: 14
+  height: 33
+  lifetime: 15
+  shootEffect: shootBig
+  fragVelocityMin: 0.4
+  hitEffect: blastExplosion 
+  splashDamage: 18
+  splashDamageRadius: 13
+  fragBullets: 3
+  fragLifeMin: 0
+  fragRandomSpread: 30
+  fragBullet: {
+      type: BasicBulletType
+      speed: 9
+      damage: 20
+      width: 10
+      height: 10
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 3
+      lifetime: 20
+      hitEffect: flakExplosion
+      splashDamage: 15
+      splashDamageRadius: 10
+        }
