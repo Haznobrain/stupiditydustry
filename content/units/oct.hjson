@@ -35,7 +35,7 @@ bullet: {
   pierceBuilding: true
   pierceCap: 2
   statusDuration: 240
-  shootEffect: shootFlameSmall
+  shootEffect: shootSmallFlame
   hitEffect: hitFlameSmall
   despawnEffect: none
   status: burning
